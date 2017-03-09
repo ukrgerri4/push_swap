@@ -1,49 +1,53 @@
 #include "push_swap.h"
 
-void    sa(t_intarr *stc)
+void    swap(t_dlist *list)
 {
     int tmp;
 
-    if (stc->qty_a > 1)
+    if (list->size >= 2)
     {
-        tmp = stc->a[0];
-        stc->a[0] = stc->a[1];
-        stc->a[1] = tmp;
+        tmp = list->head->nb;
+        list->head->nb = list->head->next->nb;
+        list->head->next->nb = tmp;
     }
 }
 
-void    sb(t_intarr *stc)
+void    push(t_dlist *list_src, t_dlist *list_dst)
 {
     int tmp;
 
-    if (stc->qty_b > 1)
+    if (list_src->size)
     {
-        tmp = stc->b[0];
-        stc->b[0] = stc->b[1];
-        stc->b[1] = tmp;
+        tmp = list_src->head->nb;
+        push_front_node(list_dst, tmp);
+        pop_front_node(list_src);
     }
 }
 
-void    ss(t_intarr *stc)
+void    rotate(t_dlist *list)
 {
-    sa(stc);
-    sb(stc);
+    int tmp;
+
+    if (list->size == 2)
+        swap(list);
+    else if (list->size > 2)
+    {
+        tmp = list->head->nb;
+        pop_front_node(list);
+        push_back_node(list, tmp);
+    }
 }
 
-void    pa(t_intarr *stc)
+void    rev_rotate(t_dlist *list)
 {
-    int i;
     int tmp;
-    int next;
 
-    i = 0;
-    if (stc->b)
+    if (list->size == 2)
+        swap(list);
+    else if (list->size > 2)
     {
-        while (i < stc->qty_a)
-        {
-            tmp = stc->a[i + 1];
-            stc->a[i + 1] = stc->a[i];
-
-        }
+        tmp = list->tail->nb;
+        pop_back_node(list);
+        push_front_node(list, tmp);
     }
 }

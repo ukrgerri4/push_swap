@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/ft_printf.h
+/home/ukrgerri4/CLionProjects/push_swap/arr_fun.c
+push_swap.h
+/home/ukrgerri4/CLionProjects/push_swap/push_swap.h
+
+/home/ukrgerri4/CLionProjects/push_swap/ft_printf/ft_printf.h
 libft/libft.h
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/libft.h
+/home/ukrgerri4/CLionProjects/push_swap/ft_printf/libft/libft.h
 stdarg.h
 -
 string.h
@@ -24,13 +28,13 @@ stddef.h
 inttypes.h
 -
 
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/get_next_line.h
+/home/ukrgerri4/CLionProjects/push_swap/ft_printf/libft/get_next_line.h
 libft.h
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/libft.h
+/home/ukrgerri4/CLionProjects/push_swap/ft_printf/libft/libft.h
 
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/libft.h
+/home/ukrgerri4/CLionProjects/push_swap/ft_printf/libft/libft.h
 get_next_line.h
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/get_next_line.h
+/home/ukrgerri4/CLionProjects/push_swap/ft_printf/libft/get_next_line.h
 string.h
 -
 stdlib.h
@@ -38,17 +42,29 @@ stdlib.h
 unistd.h
 -
 
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/fun_sa_sb_ss.c
+/home/ukrgerri4/CLionProjects/push_swap/fun_sa_sb_ss.c
 push_swap.h
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/push_swap.h
+/home/ukrgerri4/CLionProjects/push_swap/push_swap.h
 
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/main.c
+/home/ukrgerri4/CLionProjects/push_swap/list_fun.c
 push_swap.h
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/push_swap.h
+/home/ukrgerri4/CLionProjects/push_swap/push_swap.h
 
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/push_swap.h
+/home/ukrgerri4/CLionProjects/push_swap/main.c
+push_swap.h
+/home/ukrgerri4/CLionProjects/push_swap/push_swap.h
+
+/home/ukrgerri4/CLionProjects/push_swap/node_fun.c
+push_swap.h
+/home/ukrgerri4/CLionProjects/push_swap/push_swap.h
+
+/home/ukrgerri4/CLionProjects/push_swap/push_swap.h
 ft_printf/libft/libft.h
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/libft.h
+/home/ukrgerri4/CLionProjects/push_swap/ft_printf/libft/libft.h
 ft_printf/ft_printf.h
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/ft_printf.h
+/home/ukrgerri4/CLionProjects/push_swap/ft_printf/ft_printf.h
+
+/home/ukrgerri4/CLionProjects/push_swap/sort_fun.c
+push_swap.h
+/home/ukrgerri4/CLionProjects/push_swap/push_swap.h
 

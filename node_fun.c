@@ -79,11 +79,10 @@ void    put_list(t_dlist *list)
 
     i = 0;
     tmp = list->head;
-    while (i < list->size)
+    while (tmp)
     {
         ft_printf("%d, ", tmp->nb);
         tmp = tmp->next;
-        i++;
     }
     ft_printf("\nSize = %d\n", list->size);
 }

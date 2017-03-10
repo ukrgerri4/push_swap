@@ -1,6 +1,6 @@
 #include "push_swap.h"
 
-t_dlist    *make_list(void)
+t_dlist    *make_list(char mark)
 {
     t_dlist *tmp;
 
@@ -9,6 +9,7 @@ t_dlist    *make_list(void)
     tmp->head = NULL;
     tmp->tail = NULL;
     tmp->size = 0;
+    tmp->mark = mark;
     return (tmp);
 }
 

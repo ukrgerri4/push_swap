@@ -5,8 +5,8 @@
 #define SB swap(l_b)
 #define SS  SA;\
             SB;
-#define PA push(l_b, l_a)
-#define PB push(l_a, l_b)
+#define PA push(s, r)
+#define PB push(s, r)
 #define RA rotate(l_a)
 #define RB rotate(l_b)
 #define RR  RA;\
@@ -19,6 +19,8 @@
 #include "ft_printf/libft/libft.h"
 #include "ft_printf/ft_printf.h"
 
+int g_countoper;
+
 typedef struct  s_node
 {
     int             nb;
@@ -30,11 +32,12 @@ typedef struct s_dlist {
     t_node  *head;
     t_node  *tail;
     int     size;
+    char    mark;
 }               t_dlist;
 
 /* Basic t_dlist function */
 
-t_dlist     *make_list(void);
+t_dlist     *make_list(char mark);
 void        del_list(t_dlist **list);
 
 /* Basic t_node function */
@@ -55,6 +58,14 @@ void    rev_rotate(t_dlist *list);
 
 /* Check function*/
 
-void    stupid_sort(t_dlist *list);
+int     find_median(t_dlist *src, int len);
+void    q_sort(t_dlist *src, t_dlist *dst, int len);
+
+
+
+
+
+
+//void    stupid_sort(t_dlist *list);
 
 #endif

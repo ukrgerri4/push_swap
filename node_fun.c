@@ -84,5 +84,5 @@ void    put_list(t_dlist *list)
         ft_printf("%d, ", tmp->nb);
         tmp = tmp->next;
     }
-    ft_printf("\nSize = %d\n", list->size);
+    ft_printf("\nSize = %d, Mark = %c\n", list->size, list->mark);
 }

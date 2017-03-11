@@ -15,13 +15,14 @@ int         main(int argc, char **argv)
         while (++i < argc)
             push_back_node(l_a, ft_atoi(argv[i]));
 
-        /*----------------------------------------*/
+        /*----------------------------------*/
         q_sort(l_a, l_b, l_a->size);
-//      stupid_sort(l_a);
+        ft_printf("-------------END------------\n");
         put_list(l_a);
         ft_printf("\n");
         put_list(l_b);
-        /*----------------------------------------*/
+        ft_printf("-----------------------------\n");
+        /*----------------------------------*/
     }
     return (0);
 }

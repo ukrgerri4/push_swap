@@ -39,38 +39,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/ukrgerri4/CLion/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/ukrgerri4/CLion/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ukrgerri4/CLionProjects/push_swap
+CMAKE_SOURCE_DIR = /nfs/2016/i/ikryvenk/ClionProjects/push_swap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug
+CMAKE_BINARY_DIR = /nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/ukrgerri4/CLion/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/ukrgerri4/CLion/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,11 +67,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles /home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles /nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -2161,32 +2161,32 @@ ft_printf/libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/ft_printf/libft/get_next_line.c.s
 .PHONY : ft_printf/libft/get_next_line.c.s
 
-fun_sa_sb_ss.o: fun_sa_sb_ss.c.o
+fun_move_elem.o: fun_move_elem.c.o
 
-.PHONY : fun_sa_sb_ss.o
+.PHONY : fun_move_elem.o
 
 # target to build an object file
-fun_sa_sb_ss.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/fun_sa_sb_ss.c.o
-.PHONY : fun_sa_sb_ss.c.o
+fun_move_elem.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/fun_move_elem.c.o
+.PHONY : fun_move_elem.c.o
 
-fun_sa_sb_ss.i: fun_sa_sb_ss.c.i
+fun_move_elem.i: fun_move_elem.c.i
 
-.PHONY : fun_sa_sb_ss.i
+.PHONY : fun_move_elem.i
 
 # target to preprocess a source file
-fun_sa_sb_ss.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/fun_sa_sb_ss.c.i
-.PHONY : fun_sa_sb_ss.c.i
+fun_move_elem.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/fun_move_elem.c.i
+.PHONY : fun_move_elem.c.i
 
-fun_sa_sb_ss.s: fun_sa_sb_ss.c.s
+fun_move_elem.s: fun_move_elem.c.s
 
-.PHONY : fun_sa_sb_ss.s
+.PHONY : fun_move_elem.s
 
 # target to generate assembly for a file
-fun_sa_sb_ss.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/fun_sa_sb_ss.c.s
-.PHONY : fun_sa_sb_ss.c.s
+fun_move_elem.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/fun_move_elem.c.s
+.PHONY : fun_move_elem.c.s
 
 list_fun.o: list_fun.c.o
 
@@ -2269,6 +2269,33 @@ node_fun.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/node_fun.c.s
 .PHONY : node_fun.c.s
 
+separate_join_sort.o: separate_join_sort.c.o
+
+.PHONY : separate_join_sort.o
+
+# target to build an object file
+separate_join_sort.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/separate_join_sort.c.o
+.PHONY : separate_join_sort.c.o
+
+separate_join_sort.i: separate_join_sort.c.i
+
+.PHONY : separate_join_sort.i
+
+# target to preprocess a source file
+separate_join_sort.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/separate_join_sort.c.i
+.PHONY : separate_join_sort.c.i
+
+separate_join_sort.s: separate_join_sort.c.s
+
+.PHONY : separate_join_sort.s
+
+# target to generate assembly for a file
+separate_join_sort.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/separate_join_sort.c.s
+.PHONY : separate_join_sort.c.s
+
 sort_fun.o: sort_fun.c.o
 
 .PHONY : sort_fun.o
@@ -2302,9 +2329,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ft"
-	@echo "... edit_cache"
 	@echo "... push_swap"
 	@echo "... arr_fun.o"
 	@echo "... arr_fun.i"
@@ -2531,9 +2558,9 @@ help:
 	@echo "... ft_printf/libft/get_next_line.o"
 	@echo "... ft_printf/libft/get_next_line.i"
 	@echo "... ft_printf/libft/get_next_line.s"
-	@echo "... fun_sa_sb_ss.o"
-	@echo "... fun_sa_sb_ss.i"
-	@echo "... fun_sa_sb_ss.s"
+	@echo "... fun_move_elem.o"
+	@echo "... fun_move_elem.i"
+	@echo "... fun_move_elem.s"
 	@echo "... list_fun.o"
 	@echo "... list_fun.i"
 	@echo "... list_fun.s"
@@ -2543,6 +2570,9 @@ help:
 	@echo "... node_fun.o"
 	@echo "... node_fun.i"
 	@echo "... node_fun.s"
+	@echo "... separate_join_sort.o"
+	@echo "... separate_join_sort.i"
+	@echo "... separate_join_sort.s"
 	@echo "... sort_fun.o"
 	@echo "... sort_fun.i"
 	@echo "... sort_fun.s"

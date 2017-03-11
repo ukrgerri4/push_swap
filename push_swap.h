@@ -59,13 +59,12 @@ void    rev_rotate(t_dlist *list);
 /* Check function*/
 
 int     find_median(t_dlist *src, int len);
+void    sort_list(t_dlist *src, int len);
+int     separation_a(t_dlist *src, t_dlist *dst, int len);
+int     separation_b(t_dlist *src, t_dlist *dst, int len);
+int     find_repetition(t_dlist *src, int len);
+void    joining(t_dlist *src, t_dlist *dst, int pushed);
+int     check_sorted(t_dlist *src, int len);
 void    q_sort(t_dlist *src, t_dlist *dst, int len);
-
-
-
-
-
-
-//void    stupid_sort(t_dlist *list);
 
 #endif

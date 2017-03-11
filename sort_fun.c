@@ -1,114 +1,59 @@
 #include "push_swap.h"
 
-int     find_median(t_dlist *src, int len)
+int     find_repetition(t_dlist *src, int len)
 {
-    t_node  *tmp;
-    int max;
-    int min;
-    int median;
+    t_node *tmp;
 
     tmp = src->head;
-    max = tmp->nb;
-    min = tmp->nb;
-    while (tmp && len > 0)
+    while (len > 1)
     {
-        if (tmp->nb > max)
-            max = tmp->nb;
-        if (tmp->nb < min)
-            min = tmp->nb;
+        if (tmp->nb != tmp->next->nb)
+            return (1);
         tmp = tmp->next;
         len--;
     }
-    median = (min + max) / 2;
-    return (median);
+    return (0);
 }
 
-void    sort_list(t_dlist *src, int size)
+int     check_sorted(t_dlist *src, int len)
 {
-    int tmp;
+    t_node *tmp;
 
-    if ((size == 1) || (src->head->nb == src->tail->nb))
-        return ;
-    else if (size == 2)
+    tmp = src->head;
+    while (len > 1)
     {
         if (src->mark == 'a')
-            if (src->head->nb > src->tail->nb)
-                swap(src);
+        {
+            if (tmp->nb > tmp->next->nb)
+                return (0);
+        }
         else
-            if (src->head->nb < src->tail->nb)
-                swap(src);
-    }
-}
-
-
-int    separation(t_dlist *src, t_dlist *dst, int len)
-{
-    int     median;
-    int     pushed;
-
-    pushed = 0;
-    median = find_median(src, len);
-    while (len > 0)
-    {
-        if (src->head->nb <= median)
-            push(src, dst); // можно передавать ф-ю как аргумент
-        else
-            rotate(src); // можно передавать ф-ю как аргумент
+        {
+            if (tmp->nb < tmp->next->nb)
+                return (0);
+        }
+        tmp = tmp->next;
         len--;
-        pushed++;
     }
-    return (pushed);
-}
-
-void    joining(t_dlist *src, t_dlist *dst, int pushed)
-{
-    // стеденяем 2 отсортрованных куска стэка
+    return (1);
 }
 
 void    q_sort(t_dlist *src, t_dlist *dst, int len)
 {
-//    int pushed;
+    int pushed;
 
-    if (len > 2)
+    if (check_sorted(src, len))
+        return ;
+    if (len > 2 && find_repetition(src, len))
     {
-        separation(src, dst, len);
-        q_sort(src, dst, src->size);
-        /*потом идет рекурсия -го стэка*/
-//      q_sort(dst, src, pushed);
-//      joining(src, dst, pushed);
+        if (src->mark == 'a')
+            pushed = separation_a(src, dst, len);
+        else
+            pushed = separation_b(src, dst, len);
+        q_sort(src, dst, (len - pushed));
+        q_sort(dst, src, pushed);
+        joining(dst, src, pushed);
     }
     else
         sort_list(src, len);
 }
-
-/*
-t_node  *check_order(t_dlist *list)
-{
-    t_node  *tmp;
-
-    tmp = list->head;
-    while (tmp != list->tail)
-    {
-        if (tmp->nb > tmp->next->nb)
-            return (tmp);
-        tmp = tmp->next;
-    }
-    return (NULL);
-}
-
-void    stupid_sort(t_dlist *list)
-{
-    int i = 0;
-    t_node  *start;
-
-    start = list->head;
-    while ((list->head = check_order(list)))
-    {
-        swap(list);
-        list->head = start;
-        i++;
-    }
-    list->head = start;
-    ft_printf("%d\n", i);
-}
-*/

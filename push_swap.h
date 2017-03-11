@@ -1,25 +1,15 @@
 #ifndef PUSH_SWAP_PUSH_SWAP_H
 #define PUSH_SWAP_PUSH_SWAP_H
 
-#define SA swap(l_a)
-#define SB swap(l_b)
-#define SS  SA;\
-            SB;
-#define PA push(s, r)
-#define PB push(s, r)
-#define RA rotate(l_a)
-#define RB rotate(l_b)
-#define RR  RA;\
-            RB;
-#define RRA rev_rotate(l_a)
-#define RRB rev_rotate(l_b)
-#define RRR RRA;\
-            RRB;
+#define SWAP i == 1
+#define PUSH i == 2
+#define ROTATE i == 3
+#define REV_ROTATE i == 4
 
 #include "ft_printf/libft/libft.h"
 #include "ft_printf/ft_printf.h"
 
-int g_countoper;
+int sum_oper; // DELETE
 
 typedef struct  s_node
 {
@@ -31,7 +21,7 @@ typedef struct  s_node
 typedef struct s_dlist {
     t_node  *head;
     t_node  *tail;
-    int     size;
+    int     size; // возможно нужно удалить
     char    mark;
 }               t_dlist;
 
@@ -65,6 +55,7 @@ int     separation_b(t_dlist *src, t_dlist *dst, int len);
 int     find_repetition(t_dlist *src, int len);
 void    joining(t_dlist *src, t_dlist *dst, int pushed);
 int     check_sorted(t_dlist *src, int len);
+void    print_command(t_dlist *src, int i);
 void    q_sort(t_dlist *src, t_dlist *dst, int len);
 
 #endif

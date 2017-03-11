@@ -37,11 +37,15 @@ int    separation_a(t_dlist *src, t_dlist *dst, int len)
     {
         if (src->head->nb <= median)
         {
-            push(src, dst); // можно передавать ф-ю как аргумент
+            push(src, dst);
+            print_command(src, 2);
             pushed++;
         }
         else
-            rotate(src); // можно передавать ф-ю как аргумент
+        {
+            rotate(src);
+            print_command(src, 3);
+        }
         len--;
     }
     i = 0;
@@ -63,16 +67,23 @@ int    separation_b(t_dlist *src, t_dlist *dst, int len)
     while (len > 0) {
         if (src->head->nb >= median)
         {
-            push(src, dst); // можно передавать ф-ю как аргумент
+            push(src, dst);
+            print_command(src, 2);
             pushed++;
         }
         else
-            rotate(src); // можно передавать ф-ю как аргумент
+        {
+            rotate(src);
+            print_command(src, 3);
+        }
         len--;
     }
     i = 0;
     while (i++ < (tmp_len - pushed))
+    {
         rev_rotate(src);
+        print_command(src, 4);
+    }
     return (pushed);
 }
 
@@ -81,6 +92,7 @@ void    joining(t_dlist *src, t_dlist *dst, int pushed)
     while (pushed > 0)
     {
         push(src, dst);
+        print_command(src, 2);
         pushed--;
     }
 }
@@ -92,12 +104,18 @@ void    sort_list(t_dlist *src, int len)
         if (src->mark == 'a')
         {
             if (src->head->nb > src->head->next->nb)
+            {
                 swap(src);
+                print_command(src, 1);
+            }
         }
         else
         {
             if (src->head->nb < src->head->next->nb)
+            {
                 swap(src);
+                print_command(src, 1);
+            }
         }
     }
 }

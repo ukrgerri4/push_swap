@@ -1,5 +1,27 @@
 #include "push_swap.h"
 
+void    print_command(t_dlist *src, int i)
+{
+    if (SWAP)
+        ft_printf("s");
+    else if (PUSH)
+        ft_printf("p");
+    else if (ROTATE)
+        ft_printf("r");
+    else if (REV_ROTATE)
+        ft_printf("rr");
+    if (src->mark == 'a' && !(PUSH))
+        ft_printf("a");
+    else if (src->mark == 'a' && PUSH)
+        ft_printf("b");
+    else if (src->mark == 'b' && !(PUSH))
+        ft_printf("b");
+    else if (src->mark == 'b' && PUSH)
+        ft_printf("a");
+    ft_printf("\n");
+    sum_oper++;
+}
+
 int     find_repetition(t_dlist *src, int len)
 {
     t_node *tmp;
@@ -36,24 +58,4 @@ int     check_sorted(t_dlist *src, int len)
         len--;
     }
     return (1);
-}
-
-void    q_sort(t_dlist *src, t_dlist *dst, int len)
-{
-    int pushed;
-
-    if (check_sorted(src, len))
-        return ;
-    if (len > 2 && find_repetition(src, len))
-    {
-        if (src->mark == 'a')
-            pushed = separation_a(src, dst, len);
-        else
-            pushed = separation_b(src, dst, len);
-        q_sort(src, dst, (len - pushed));
-        q_sort(dst, src, pushed);
-        joining(dst, src, pushed);
-    }
-    else
-        sort_list(src, len);
 }

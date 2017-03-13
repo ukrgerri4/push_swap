@@ -51,3 +51,28 @@ void    rev_rotate(t_dlist *list)
         push_front_node(list, tmp);
     }
 }
+
+void    print_command(t_dlist *src, int i)
+{
+    static int  j;
+
+
+    if (SWAP && src->mark == 'a')
+        g_oper[j++] = '1';
+    else if (SWAP && src->mark != 'a')
+        g_oper[j++] = '2';
+    else if (PUSH && src->mark != 'a')
+        g_oper[j++] = '3';
+    else if (PUSH && src->mark == 'a')
+        g_oper[j++] = '4';
+    else if (ROTATE && src->mark == 'a')
+        g_oper[j++] = '5';
+    else if (ROTATE && src->mark != 'a')
+        g_oper[j++] = '6';
+    else if (REV_ROTATE && src->mark == 'a')
+        g_oper[j++] = '7';
+    else if (REV_ROTATE && src->mark != 'a')
+        g_oper[j++] = '8';
+    g_oper[j] = '\0';
+    sum_oper++;
+}

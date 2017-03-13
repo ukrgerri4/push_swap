@@ -39,38 +39,27 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/ukrgerri4/CLion/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /home/ukrgerri4/CLion/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /nfs/2016/i/ikryvenk/ClionProjects/push_swap
+CMAKE_SOURCE_DIR = /home/ukrgerri4/CLionProjects/push_swap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/ukrgerri4/CLion/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,11 +67,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/ukrgerri4/CLion/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles /nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles /home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -2188,6 +2188,33 @@ fun_move_elem.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/fun_move_elem.c.s
 .PHONY : fun_move_elem.c.s
 
+help.o: help.c.o
+
+.PHONY : help.o
+
+# target to build an object file
+help.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/help.c.o
+.PHONY : help.c.o
+
+help.i: help.c.i
+
+.PHONY : help.i
+
+# target to preprocess a source file
+help.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/help.c.i
+.PHONY : help.c.i
+
+help.s: help.c.s
+
+.PHONY : help.s
+
+# target to generate assembly for a file
+help.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/help.c.s
+.PHONY : help.c.s
+
 list_fun.o: list_fun.c.o
 
 .PHONY : list_fun.o
@@ -2214,33 +2241,6 @@ list_fun.s: list_fun.c.s
 list_fun.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/list_fun.c.s
 .PHONY : list_fun.c.s
-
-main.o: main.c.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/main.c.o
-.PHONY : main.c.o
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/main.c.s
-.PHONY : main.c.s
 
 node_fun.o: node_fun.c.o
 
@@ -2269,32 +2269,59 @@ node_fun.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/node_fun.c.s
 .PHONY : node_fun.c.s
 
-separate_join_sort.o: separate_join_sort.c.o
+push_swap.o: push_swap.c.o
 
-.PHONY : separate_join_sort.o
+.PHONY : push_swap.o
 
 # target to build an object file
-separate_join_sort.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/separate_join_sort.c.o
-.PHONY : separate_join_sort.c.o
+push_swap.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap.c.o
+.PHONY : push_swap.c.o
 
-separate_join_sort.i: separate_join_sort.c.i
+push_swap.i: push_swap.c.i
 
-.PHONY : separate_join_sort.i
+.PHONY : push_swap.i
 
 # target to preprocess a source file
-separate_join_sort.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/separate_join_sort.c.i
-.PHONY : separate_join_sort.c.i
+push_swap.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap.c.i
+.PHONY : push_swap.c.i
 
-separate_join_sort.s: separate_join_sort.c.s
+push_swap.s: push_swap.c.s
 
-.PHONY : separate_join_sort.s
+.PHONY : push_swap.s
 
 # target to generate assembly for a file
-separate_join_sort.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/separate_join_sort.c.s
-.PHONY : separate_join_sort.c.s
+push_swap.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap.c.s
+.PHONY : push_swap.c.s
+
+separate_join.o: separate_join.c.o
+
+.PHONY : separate_join.o
+
+# target to build an object file
+separate_join.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/separate_join.c.o
+.PHONY : separate_join.c.o
+
+separate_join.i: separate_join.c.i
+
+.PHONY : separate_join.i
+
+# target to preprocess a source file
+separate_join.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/separate_join.c.i
+.PHONY : separate_join.c.i
+
+separate_join.s: separate_join.c.s
+
+.PHONY : separate_join.s
+
+# target to generate assembly for a file
+separate_join.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/separate_join.c.s
+.PHONY : separate_join.c.s
 
 sort_fun.o: sort_fun.c.o
 
@@ -2329,9 +2356,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ft"
+	@echo "... edit_cache"
 	@echo "... push_swap"
 	@echo "... arr_fun.o"
 	@echo "... arr_fun.i"
@@ -2561,18 +2588,21 @@ help:
 	@echo "... fun_move_elem.o"
 	@echo "... fun_move_elem.i"
 	@echo "... fun_move_elem.s"
+	@echo "... help.o"
+	@echo "... help.i"
+	@echo "... help.s"
 	@echo "... list_fun.o"
 	@echo "... list_fun.i"
 	@echo "... list_fun.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 	@echo "... node_fun.o"
 	@echo "... node_fun.i"
 	@echo "... node_fun.s"
-	@echo "... separate_join_sort.o"
-	@echo "... separate_join_sort.i"
-	@echo "... separate_join_sort.s"
+	@echo "... push_swap.o"
+	@echo "... push_swap.i"
+	@echo "... push_swap.s"
+	@echo "... separate_join.o"
+	@echo "... separate_join.i"
+	@echo "... separate_join.s"
 	@echo "... sort_fun.o"
 	@echo "... sort_fun.i"
 	@echo "... sort_fun.s"

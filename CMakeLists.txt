@@ -3,8 +3,8 @@ project(push_swap)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.c push_swap.h arr_fun.c node_fun.c list_fun.c fun_move_elem.c sort_fun.c separate_join_sort.c)
-add_executable(push_swap ${SOURCE_FILES} main.c)
+set(SOURCE_FILES push_swap.c push_swap.h arr_fun.c node_fun.c list_fun.c fun_move_elem.c sort_fun.c separate_join.c help.c)
+add_executable(push_swap ${SOURCE_FILES} push_swap.c)
 file(GLOB SOURCES_LIB ft_printf/libft/*.c)
 file(GLOB SOURCES_PRINTF ft_printf/*.c)
 add_library(ft STATIC ${SOURCES_LIB} ${SOURCES_PRINTF})

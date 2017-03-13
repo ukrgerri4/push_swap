@@ -5,11 +5,15 @@
 #define PUSH i == 2
 #define ROTATE i == 3
 #define REV_ROTATE i == 4
+#define FIRST src->head->nb
+#define SECOND src->head->next->nb
+#define THIRD src->head->next->next->nb
 
 #include "ft_printf/libft/libft.h"
 #include "ft_printf/ft_printf.h"
 
-int sum_oper; // DELETE
+int     sum_oper; // DELETE
+char    *g_oper;
 
 typedef struct  s_node
 {
@@ -49,10 +53,9 @@ void    rev_rotate(t_dlist *list);
 /* Check function*/
 
 int     find_median(t_dlist *src, int len);
-void    sort_list(t_dlist *src, int len);
+void    sort_list(t_dlist *src, t_dlist *dst, int len);
 int     separation_a(t_dlist *src, t_dlist *dst, int len);
 int     separation_b(t_dlist *src, t_dlist *dst, int len);
-int     find_repetition(t_dlist *src, int len);
 void    joining(t_dlist *src, t_dlist *dst, int pushed);
 int     check_sorted(t_dlist *src, int len);
 void    print_command(t_dlist *src, int i);

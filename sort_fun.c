@@ -1,40 +1,59 @@
 #include "push_swap.h"
 
-void    print_command(t_dlist *src, int i)
+static void sort_only_three_elem_a(t_dlist *src)
 {
-    if (SWAP)
-        ft_printf("s");
-    else if (PUSH)
-        ft_printf("p");
-    else if (ROTATE)
-        ft_printf("r");
-    else if (REV_ROTATE)
-        ft_printf("rr");
-    if (src->mark == 'a' && !(PUSH))
-        ft_printf("a");
-    else if (src->mark == 'a' && PUSH)
-        ft_printf("b");
-    else if (src->mark == 'b' && !(PUSH))
-        ft_printf("b");
-    else if (src->mark == 'b' && PUSH)
-        ft_printf("a");
-    ft_printf("\n");
-    sum_oper++;
+    if (check_sorted(src, 3))
+        return ;
+    if (FIRST > SECOND && SECOND >= THIRD)
+    {
+        swap(src);
+        print_command(src, 1);
+    }
+    if (SECOND > THIRD)
+    {
+        rev_rotate(src);
+        print_command(src, 4);
+    }
+    if (check_sorted(src, 3))
+        return ;
+    if (FIRST > THIRD)
+    {
+        rotate(src);
+        print_command(src, 3);
+    }
+    else
+    {
+        swap(src);
+        print_command(src, 1);
+    }
 }
 
-int     find_repetition(t_dlist *src, int len)
+static void sort_only_three_elem_b(t_dlist *src)
 {
-    t_node *tmp;
-
-    tmp = src->head;
-    while (len > 1)
+    if (check_sorted(src, 3))
+        return ;
+    if (FIRST < SECOND && SECOND <= THIRD)
     {
-        if (tmp->nb != tmp->next->nb)
-            return (1);
-        tmp = tmp->next;
-        len--;
+        swap(src);
+        print_command(src, 1);
     }
-    return (0);
+    if (SECOND < THIRD)
+    {
+        rev_rotate(src);
+        print_command(src, 4);
+    }
+    if (check_sorted(src, 3))
+        return ;
+    if (FIRST < THIRD)
+    {
+        rotate(src);
+        print_command(src, 3);
+    }
+    else
+    {
+        swap(src);
+        print_command(src, 1);
+    }
 }
 
 int     check_sorted(t_dlist *src, int len)
@@ -58,4 +77,71 @@ int     check_sorted(t_dlist *src, int len)
         len--;
     }
     return (1);
+}
+
+static void sort_two_elem(t_dlist *src)
+{
+    if (src->mark == 'a')
+    {
+        if (src->head->nb > src->head->next->nb)
+        {
+            swap(src);
+            print_command(src, 1);
+        }
+    }
+    else
+    {
+        if (src->head->nb < src->head->next->nb)
+        {
+            swap(src);
+            print_command(src, 1);
+        }
+    }
+}
+
+static void sort_three_elem_a(t_dlist *src, t_dlist *dst)
+{
+    if (check_sorted(src, 3))
+        return ;
+    if (src->size == 3)
+        sort_only_three_elem_a(src);
+    else if (FIRST <= SECOND && FIRST <= THIRD)
+    {
+        push(src, dst);
+        print_command(src, 2);
+        sort_two_elem(src);
+        push(dst, src);
+        print_command(src, 2);
+    }
+
+}
+
+static void sort_three_elem_b(t_dlist *src, t_dlist *dst)
+{
+    if (check_sorted(src, 3))
+        return ;
+    if (src->size == 3)
+        sort_only_three_elem_b(src);
+    else if (FIRST >= SECOND && FIRST >= THIRD)
+    {
+        push(src, dst);
+        print_command(src, 2);
+        sort_two_elem(src);
+        push(dst, src);
+        print_command(src, 2);
+    }
+
+}
+
+void    sort_list(t_dlist *src, t_dlist *dst, int len)
+{
+    if (len == 2)
+        sort_two_elem(src);
+    if (len == 3)
+    {
+        if (src->mark == 'a')
+            sort_three_elem_a(src, dst);
+        else
+            sort_three_elem_b(src, dst);
+    }
 }

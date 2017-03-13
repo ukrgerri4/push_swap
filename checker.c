@@ -1,4 +1,11 @@
-//
-// Created by ukrgerri4 on 12.03.17.
-//
+#include "push_swap.h"
 
+int     main(void)
+{
+    char *line;
+
+    while (get_next_line(0, &line))
+    {
+
+    }
+}

@@ -4,15 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/arr_fun.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/arr_fun.c.o"
-  "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/fun_move_elem.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/fun_move_elem.c.o"
-  "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/list_fun.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/list_fun.c.o"
-  "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/main.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/main.c.o"
-  "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/node_fun.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/node_fun.c.o"
-  "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/separate_join_sort.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/separate_join_sort.c.o"
-  "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/sort_fun.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sort_fun.c.o"
+  "/home/ukrgerri4/CLionProjects/push_swap/arr_fun.c" "/home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/arr_fun.c.o"
+  "/home/ukrgerri4/CLionProjects/push_swap/fun_move_elem.c" "/home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/fun_move_elem.c.o"
+  "/home/ukrgerri4/CLionProjects/push_swap/help.c" "/home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/help.c.o"
+  "/home/ukrgerri4/CLionProjects/push_swap/list_fun.c" "/home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/list_fun.c.o"
+  "/home/ukrgerri4/CLionProjects/push_swap/node_fun.c" "/home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/node_fun.c.o"
+  "/home/ukrgerri4/CLionProjects/push_swap/push_swap.c" "/home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap.c.o"
+  "/home/ukrgerri4/CLionProjects/push_swap/separate_join.c" "/home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/separate_join.c.o"
+  "/home/ukrgerri4/CLionProjects/push_swap/sort_fun.c" "/home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/sort_fun.c.o"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
@@ -20,7 +21,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/ft.dir/DependInfo.cmake"
+  "/home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/ft.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

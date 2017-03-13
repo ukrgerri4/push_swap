@@ -96,26 +96,3 @@ void    joining(t_dlist *src, t_dlist *dst, int pushed)
         pushed--;
     }
 }
-
-void    sort_list(t_dlist *src, int len)
-{
-    if (len == 2)
-    {
-        if (src->mark == 'a')
-        {
-            if (src->head->nb > src->head->next->nb)
-            {
-                swap(src);
-                print_command(src, 1);
-            }
-        }
-        else
-        {
-            if (src->head->nb < src->head->next->nb)
-            {
-                swap(src);
-                print_command(src, 1);
-            }
-        }
-    }
-}

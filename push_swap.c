@@ -6,7 +6,7 @@ void    q_sort(t_dlist *src, t_dlist *dst, int len)
 
     if (check_sorted(src, len))
         return ;
-    if (len > 2 && find_repetition(src, len))
+    if (len > 3)
     {
         if (src->mark == 'a')
             pushed = separation_a(src, dst, len);

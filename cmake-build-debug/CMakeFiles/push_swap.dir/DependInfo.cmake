@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/arr_fun.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/arr_fun.c.o"
+  "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/bubble_sort.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/bubble_sort.c.o"
   "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/fun_move_elem.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/fun_move_elem.c.o"
   "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/list_fun.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/list_fun.c.o"
   "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/main.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/main.c.o"

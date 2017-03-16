@@ -1,28 +1,5 @@
 #include "push_swap.h"
 
-int     find_median(t_dlist *src, int len)
-{
-    t_node  *tmp;
-    int max;
-    int min;
-    int median;
-
-    tmp = src->head;
-    max = tmp->nb;
-    min = tmp->nb;
-    while (len > 0)
-    {
-        if (tmp->nb > max)
-            max = tmp->nb;
-        if (tmp->nb < min)
-            min = tmp->nb;
-        tmp = tmp->next;
-        len--;
-    }
-    median = (min + max) / 2;
-    return (median);
-}
-
 int     check_last_pushed_element(t_dlist *src, int median,int len)
 {
     t_node *tmp;
@@ -31,7 +8,7 @@ int     check_last_pushed_element(t_dlist *src, int median,int len)
     if (src->mark == 'a')
     {
         while (len > 0) {
-            if (tmp->nb <= median)
+            if (tmp->nb < median)
                 return (0);
             tmp = tmp->next;
             len--;
@@ -49,104 +26,109 @@ int     check_last_pushed_element(t_dlist *src, int median,int len)
     return (1);
 }
 
-int    separation_a(t_dlist *src, t_dlist *dst, int len)
+void    separation_a(t_dlist *l_a, t_dlist *l_b, t_info *info)
 {
     int     median;
     int     pushed;
-    int     tmp_len;
     int     i;
+    int     j;
 
+    i = 0;
+    j = 0;
     pushed = 0;
-    tmp_len = len;
-    median = find_median(src, len);
-    while (len > 0)
+    median = find_median(l_a, info->push_a);
+    while (i < info->push_a)
     {
-        if (src->head->nb <= median)
+        if (l_a->head->nb < median)
         {
-            push(src, dst);
+            push(l_a, l_b);
             pushed++;
         }
-        else if (!(check_last_pushed_element(src, median, len)))
-            rotate(src);
+        else if (!(check_last_pushed_element(l_a, median, (info->push_a - i))))
+        {
+            rotate(l_a);
+            j++;
+        }
         else
             break ;
-        len--;
+        i++;
     }
-    i = 0;
-    while (((tmp_len - len - pushed) != src->size) &&
-            (i++ < (tmp_len - len - pushed)))
-        rev_rotate(src);
-    return (pushed);
+    while (j-- > 0)
+        rev_rotate(l_a);
+    info->push_b = pushed;
+    info->push_a = info->push_a - info->push_b;
+    q_sort(l_a, l_b, info);
+    info->push_b = pushed;
 }
 
-int    separation_b(t_dlist *src, t_dlist *dst, int len)
+void    separation_b(t_dlist *l_a, t_dlist *l_b, t_info *info)
 {
     int     median;
     int     pushed;
-    int     tmp_len;
     int     i;
+    int     j;
 
+    i = 0;
+    j = 0;
     pushed = 0;
-    tmp_len = len;
-    median = find_median(src, len);
-    while (len > 0) {
-        if (src->head->nb >= median)
+    median = find_median(l_a, info->push_b);
+    while (i < info->push_b)
+    {
+        if (l_a->head->nb >= median)
         {
-            push(src, dst);
+            push(l_b, l_a);
             pushed++;
         }
-        else if (!(check_last_pushed_element(src, median, len)))
-            rotate(src);
+        else if (!(check_last_pushed_element(l_a, median, (info->push_b - i))))
+        {
+            rotate(l_b);
+            j++;
+        }
         else
             break ;
-        len--;
+        i++;
     }
+    j = 0;
+    while (j-- > 0)
+        rev_rotate(l_b);
+    info->push_a = pushed;
+    info->push_b = info->push_b - info->push_a;
+    q_sort(l_a, l_b, info);
+    info->push_a = pushed;
+}
+
+void    joining(t_dlist *l_a, t_dlist *l_b, t_info *info)
+{
+    int i;
+
     i = 0;
-    while (i++ < (tmp_len - len - pushed))
-        rev_rotate(src);
-    return (pushed);
-}
-
-void    joining(t_dlist *src, t_dlist *dst, int pushed)
-{
-    while (pushed > 0)
+    while (i < info->push_b)
     {
-        push(src, dst);
-        pushed--;
+        push(l_b, l_a);
+        i++;
     }
 }
 
-void    sort_list(t_dlist *src, t_dlist *dst, int len)
+void    sort_list(t_dlist *l_a, t_dlist *l_b, t_info *info)
 {
-    if (len == 2)
-    {
-        if (src->mark == 'a')
-        {
-            if (src->head->nb > src->head->next->nb)
-            {
-                swap(src);
-//                if (dst->head->nb < dst->head->next->nb)
-//                    swap(dst);
-            }
-        }
-        else
-        {
-            if (src->head->nb < src->head->next->nb)
-            {
-                swap(src);
-//                if (dst->head->nb > dst->head->next->nb)
-//                    swap(dst);
-
-            }
-        }
-    }
-
-    else if (len == 3)
-    {
-        if (src->mark == 'a')
-            sort_3_elem_a(src, dst);
-        else
-            sort_3_elem_b(src, dst);
-    }
-
+    if (l_b->head && FIRST_A > SECOND_A)
+        swap(l_a);
+    if (l_b->head && FIRST_B < SECOND_B)
+        swap(l_b);
+    if (!(check_sorted(l_a, info->push_a)))
+        rotate(l_a);
+    if (!(check_sorted(l_a, info->push_b)))
+        rotate(l_b);
+    if (l_a->head && FIRST_A > SECOND_A)
+        swap(l_a);
+    if (l_b->head && FIRST_B < SECOND_B)
+        swap(l_b);
+    if (!(check_sorted(l_a, info->push_a)))
+        rev_rotate(l_a);
+    if (!(check_sorted(l_a, info->push_b)))
+        rev_rotate(l_b);
+    if (l_a->head && FIRST_A > SECOND_A)
+        swap(l_a);
+    if (l_b->head && FIRST_B < SECOND_B)
+        swap(l_b);
 }

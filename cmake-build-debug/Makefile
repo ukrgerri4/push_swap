@@ -136,32 +136,32 @@ push_swap/fast:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
 .PHONY : push_swap/fast
 
-arr_fun.o: arr_fun.c.o
+bubble_sort.o: bubble_sort.c.o
 
-.PHONY : arr_fun.o
+.PHONY : bubble_sort.o
 
 # target to build an object file
-arr_fun.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/arr_fun.c.o
-.PHONY : arr_fun.c.o
+bubble_sort.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/bubble_sort.c.o
+.PHONY : bubble_sort.c.o
 
-arr_fun.i: arr_fun.c.i
+bubble_sort.i: bubble_sort.c.i
 
-.PHONY : arr_fun.i
+.PHONY : bubble_sort.i
 
 # target to preprocess a source file
-arr_fun.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/arr_fun.c.i
-.PHONY : arr_fun.c.i
+bubble_sort.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/bubble_sort.c.i
+.PHONY : bubble_sort.c.i
 
-arr_fun.s: arr_fun.c.s
+bubble_sort.s: bubble_sort.c.s
 
-.PHONY : arr_fun.s
+.PHONY : bubble_sort.s
 
 # target to generate assembly for a file
-arr_fun.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/arr_fun.c.s
-.PHONY : arr_fun.c.s
+bubble_sort.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/bubble_sort.c.s
+.PHONY : bubble_sort.c.s
 
 ft_printf/ft_checkparam.o: ft_printf/ft_checkparam.c.o
 
@@ -2387,9 +2387,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ft"
 	@echo "... push_swap"
-	@echo "... arr_fun.o"
-	@echo "... arr_fun.i"
-	@echo "... arr_fun.s"
+	@echo "... bubble_sort.o"
+	@echo "... bubble_sort.i"
+	@echo "... bubble_sort.s"
 	@echo "... ft_printf/ft_checkparam.o"
 	@echo "... ft_printf/ft_checkparam.i"
 	@echo "... ft_printf/ft_checkparam.s"

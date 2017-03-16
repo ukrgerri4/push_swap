@@ -1,5 +1,5 @@
 #include "push_swap.h"
-
+/*
 void sort_3_elem_a(t_dlist *src, t_dlist *dst)
 {
     if (FIRST < SECOND && FIRST <= THIRD && SECOND > THIRD) // 1 3 2
@@ -67,3 +67,4 @@ void sort_3_elem_b(t_dlist *src, t_dlist *dst)
         rev_rotate(src);
     }
 }
+*/

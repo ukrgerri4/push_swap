@@ -126,7 +126,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/arr_fun.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/bubble_sort.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/ft_checkparam.c">

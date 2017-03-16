@@ -3,9 +3,11 @@
 int     check_sorted(t_dlist *src, int len)
 {
     t_node *tmp;
+    int     tmp_len;
 
     tmp = src->head;
-    while (len > 1)
+    tmp_len = len;
+    while (tmp_len > 1)
     {
         if (src->mark == 'a')
         {
@@ -18,7 +20,7 @@ int     check_sorted(t_dlist *src, int len)
                 return (0);
         }
         tmp = tmp->next;
-        len--;
+        tmp_len--;
     }
     return (1);
 }

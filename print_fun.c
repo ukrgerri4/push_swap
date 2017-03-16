@@ -70,14 +70,12 @@ void vivod(char *str)
             str[i] = '0';
             str[i++ - (2 * n++ + 1)] = '0';
         }
-        if (str[i] && str[i - 1] &&
-            ((str[i] == 1 && str[i - 1] == 2) ||
-             (str[i] == 2 && str[i - 1] == 1)))
+        if (str[i] && str[i - 1] && ((str[i] == '1' && str[i - 1] == '2') ||
+                (str[i] == '2' && str[i - 1] == '1')))
         {
             str[i] = '0';
-            str[i - 1] = 'v';
+            str[i - 1] = 's';
         }
-
         i++;
     }
 

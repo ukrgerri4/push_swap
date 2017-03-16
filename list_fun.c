@@ -29,3 +29,15 @@ void    del_list(t_dlist **list)
     free(*list);
     *list = NULL;
 }
+
+t_info    *make_info(int size)
+{
+    t_info *tmp;
+
+    if (!(tmp = (t_info*)malloc(sizeof(t_info))))
+        exit (1);
+    tmp->size = size;
+    tmp->push_a = size;
+    tmp->push_b = 0;
+    return (tmp);
+}

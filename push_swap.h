@@ -5,6 +5,7 @@
 #define PUSH i == 2
 #define ROTATE i == 3
 #define REV_ROTATE i == 4
+
 #define FIRST src->head->nb
 #define SECOND src->head->next->nb
 #define THIRD src->head->next->next->nb
@@ -12,8 +13,9 @@
 #include "ft_printf/libft/libft.h"
 #include "ft_printf/ft_printf.h"
 
-int     sum_oper; // DELETE
-char    *g_oper;
+int sum_oper; // DELETE
+
+char *g_oper;
 
 typedef struct  s_node
 {
@@ -50,7 +52,7 @@ void    push(t_dlist *list_src, t_dlist *list_dst);
 void    rotate(t_dlist *list);
 void    rev_rotate(t_dlist *list);
 
-/* Check function*/
+/* Check function */
 
 int     find_median(t_dlist *src, int len);
 void    sort_list(t_dlist *src, t_dlist *dst, int len);
@@ -60,5 +62,12 @@ void    joining(t_dlist *src, t_dlist *dst, int pushed);
 int     check_sorted(t_dlist *src, int len);
 void    print_command(t_dlist *src, int i);
 void    q_sort(t_dlist *src, t_dlist *dst, int len);
+
+void sort_3_elem_a(t_dlist *src, t_dlist *dst);
+void sort_3_elem_b(t_dlist *src, t_dlist *dst);
+
+/* Print function */
+
+void vivod(char *str);
 
 #endif

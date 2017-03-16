@@ -71,18 +71,3 @@ int    pop_back_node(t_dlist *list)
     list->size--;
     return (tmp);
 }
-
-void    put_list(t_dlist *list)
-{
-    int     i;
-    t_node  *tmp;
-
-    i = 0;
-    tmp = list->head;
-    while (tmp)
-    {
-        ft_printf("%d, ", tmp->nb);
-        tmp = tmp->next;
-    }
-    ft_printf("\nSize = %d, Mark = %c\n", list->size, list->mark);
-}

@@ -1,4 +1,4 @@
-/home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/ft.dir
-/home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ukrgerri4/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/edit_cache.dir
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/ft.dir
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir

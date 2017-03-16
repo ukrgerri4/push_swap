@@ -13,13 +13,17 @@ CMakeFiles/push_swap.dir/fun_move_elem.c.o: ../ft_printf/libft/libft.h
 CMakeFiles/push_swap.dir/fun_move_elem.c.o: ../fun_move_elem.c
 CMakeFiles/push_swap.dir/fun_move_elem.c.o: ../push_swap.h
 
-CMakeFiles/push_swap.dir/help.c.o: ../help.c
-
 CMakeFiles/push_swap.dir/list_fun.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/push_swap.dir/list_fun.c.o: ../ft_printf/libft/get_next_line.h
 CMakeFiles/push_swap.dir/list_fun.c.o: ../ft_printf/libft/libft.h
 CMakeFiles/push_swap.dir/list_fun.c.o: ../list_fun.c
 CMakeFiles/push_swap.dir/list_fun.c.o: ../push_swap.h
+
+CMakeFiles/push_swap.dir/main.c.o: ../ft_printf/ft_printf.h
+CMakeFiles/push_swap.dir/main.c.o: ../ft_printf/libft/get_next_line.h
+CMakeFiles/push_swap.dir/main.c.o: ../ft_printf/libft/libft.h
+CMakeFiles/push_swap.dir/main.c.o: ../main.c
+CMakeFiles/push_swap.dir/main.c.o: ../push_swap.h
 
 CMakeFiles/push_swap.dir/node_fun.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/push_swap.dir/node_fun.c.o: ../ft_printf/libft/get_next_line.h
@@ -27,17 +31,23 @@ CMakeFiles/push_swap.dir/node_fun.c.o: ../ft_printf/libft/libft.h
 CMakeFiles/push_swap.dir/node_fun.c.o: ../node_fun.c
 CMakeFiles/push_swap.dir/node_fun.c.o: ../push_swap.h
 
-CMakeFiles/push_swap.dir/push_swap.c.o: ../ft_printf/ft_printf.h
-CMakeFiles/push_swap.dir/push_swap.c.o: ../ft_printf/libft/get_next_line.h
-CMakeFiles/push_swap.dir/push_swap.c.o: ../ft_printf/libft/libft.h
-CMakeFiles/push_swap.dir/push_swap.c.o: ../push_swap.c
-CMakeFiles/push_swap.dir/push_swap.c.o: ../push_swap.h
+CMakeFiles/push_swap.dir/print_fun.c.o: ../ft_printf/ft_printf.h
+CMakeFiles/push_swap.dir/print_fun.c.o: ../ft_printf/libft/get_next_line.h
+CMakeFiles/push_swap.dir/print_fun.c.o: ../ft_printf/libft/libft.h
+CMakeFiles/push_swap.dir/print_fun.c.o: ../print_fun.c
+CMakeFiles/push_swap.dir/print_fun.c.o: ../push_swap.h
 
-CMakeFiles/push_swap.dir/separate_join.c.o: ../ft_printf/ft_printf.h
-CMakeFiles/push_swap.dir/separate_join.c.o: ../ft_printf/libft/get_next_line.h
-CMakeFiles/push_swap.dir/separate_join.c.o: ../ft_printf/libft/libft.h
-CMakeFiles/push_swap.dir/separate_join.c.o: ../push_swap.h
-CMakeFiles/push_swap.dir/separate_join.c.o: ../separate_join.c
+CMakeFiles/push_swap.dir/separate_join_sort.c.o: ../ft_printf/ft_printf.h
+CMakeFiles/push_swap.dir/separate_join_sort.c.o: ../ft_printf/libft/get_next_line.h
+CMakeFiles/push_swap.dir/separate_join_sort.c.o: ../ft_printf/libft/libft.h
+CMakeFiles/push_swap.dir/separate_join_sort.c.o: ../push_swap.h
+CMakeFiles/push_swap.dir/separate_join_sort.c.o: ../separate_join_sort.c
+
+CMakeFiles/push_swap.dir/sort_3_elem.c.o: ../ft_printf/ft_printf.h
+CMakeFiles/push_swap.dir/sort_3_elem.c.o: ../ft_printf/libft/get_next_line.h
+CMakeFiles/push_swap.dir/sort_3_elem.c.o: ../ft_printf/libft/libft.h
+CMakeFiles/push_swap.dir/sort_3_elem.c.o: ../push_swap.h
+CMakeFiles/push_swap.dir/sort_3_elem.c.o: ../sort_3_elem.c
 
 CMakeFiles/push_swap.dir/sort_fun.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/push_swap.dir/sort_fun.c.o: ../ft_printf/libft/get_next_line.h

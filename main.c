@@ -5,10 +5,17 @@ void    q_sort(t_dlist *l_a, t_dlist *l_b, t_info *info)
     if (info->push_a > 3 && !(check_sorted(l_a, info->push_a)))
             separation_a(l_a, l_b, info);
     if (info->push_b > 3 && !(check_sorted(l_b, info->push_b)))
-            separation_b(l_a, l_b, info);
-    sort_list(l_a, l_b, info); // ??
-    joining(l_a, l_b, info);
-
+    {
+        if (separation_b(l_a, l_b, info))
+            return ;
+    }
+    if (check_sorted(l_a, l_a->size) && l_b->size == 0)
+        return ;
+    else
+    {
+        sort_list(l_a, l_b, info);
+        joining(l_a, l_b, info);
+    }
 }
 
 

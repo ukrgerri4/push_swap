@@ -71,10 +71,22 @@ void vivod(char *str)
             str[i++ - (2 * n++ + 1)] = '0';
         }
         if (str[i] && str[i - 1] && ((str[i] == '1' && str[i - 1] == '2') ||
-                (str[i] == '2' && str[i - 1] == '1')))
+                                     (str[i] == '2' && str[i - 1] == '1')))
         {
             str[i] = '0';
             str[i - 1] = 's';
+        }
+        if (str[i] && str[i - 1] && ((str[i] == '5' && str[i - 1] == '6') ||
+                                     (str[i] == '6' && str[i - 1] == '5')))
+        {
+            str[i] = '0';
+            str[i - 1] = 'r';
+        }
+        if (str[i] && str[i - 1] && ((str[i] == '7' && str[i - 1] == '8') ||
+                                     (str[i] == '8' && str[i - 1] == '7')))
+        {
+            str[i] = '0';
+            str[i - 1] = 'v';
         }
         i++;
     }

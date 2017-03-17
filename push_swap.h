@@ -67,8 +67,8 @@ void    print_command(t_dlist *src, int i);
 /* Check function */
 
 void    q_sort(t_dlist *l_a, t_dlist *l_b, t_info *info);
-void     separation_a(t_dlist *l_a, t_dlist *l_b, t_info *info);
-void     separation_b(t_dlist *l_a, t_dlist *l_b, t_info *info);
+void    separation_a(t_dlist *l_a, t_dlist *l_b, t_info *info);
+int     separation_b(t_dlist *l_a, t_dlist *l_b, t_info *info);
 void    sort_list(t_dlist *src, t_dlist *dst, t_info *info);
 void    joining(t_dlist *src, t_dlist *dst, t_info *info);
 int     find_median(t_dlist *src, int len);

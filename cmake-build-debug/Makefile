@@ -136,32 +136,32 @@ push_swap/fast:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
 .PHONY : push_swap/fast
 
-bubble_sort.o: bubble_sort.c.o
+find_median.o: find_median.c.o
 
-.PHONY : bubble_sort.o
+.PHONY : find_median.o
 
 # target to build an object file
-bubble_sort.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/bubble_sort.c.o
-.PHONY : bubble_sort.c.o
+find_median.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_median.c.o
+.PHONY : find_median.c.o
 
-bubble_sort.i: bubble_sort.c.i
+find_median.i: find_median.c.i
 
-.PHONY : bubble_sort.i
+.PHONY : find_median.i
 
 # target to preprocess a source file
-bubble_sort.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/bubble_sort.c.i
-.PHONY : bubble_sort.c.i
+find_median.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_median.c.i
+.PHONY : find_median.c.i
 
-bubble_sort.s: bubble_sort.c.s
+find_median.s: find_median.c.s
 
-.PHONY : bubble_sort.s
+.PHONY : find_median.s
 
 # target to generate assembly for a file
-bubble_sort.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/bubble_sort.c.s
-.PHONY : bubble_sort.c.s
+find_median.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_median.c.s
+.PHONY : find_median.c.s
 
 ft_printf/ft_checkparam.o: ft_printf/ft_checkparam.c.o
 
@@ -2296,32 +2296,59 @@ print_fun.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print_fun.c.s
 .PHONY : print_fun.c.s
 
-separate_join_sort.o: separate_join_sort.c.o
+separate_join.o: separate_join.c.o
 
-.PHONY : separate_join_sort.o
+.PHONY : separate_join.o
 
 # target to build an object file
-separate_join_sort.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/separate_join_sort.c.o
-.PHONY : separate_join_sort.c.o
+separate_join.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/separate_join.c.o
+.PHONY : separate_join.c.o
 
-separate_join_sort.i: separate_join_sort.c.i
+separate_join.i: separate_join.c.i
 
-.PHONY : separate_join_sort.i
+.PHONY : separate_join.i
 
 # target to preprocess a source file
-separate_join_sort.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/separate_join_sort.c.i
-.PHONY : separate_join_sort.c.i
+separate_join.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/separate_join.c.i
+.PHONY : separate_join.c.i
 
-separate_join_sort.s: separate_join_sort.c.s
+separate_join.s: separate_join.c.s
 
-.PHONY : separate_join_sort.s
+.PHONY : separate_join.s
 
 # target to generate assembly for a file
-separate_join_sort.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/separate_join_sort.c.s
-.PHONY : separate_join_sort.c.s
+separate_join.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/separate_join.c.s
+.PHONY : separate_join.c.s
+
+sort.o: sort.c.o
+
+.PHONY : sort.o
+
+# target to build an object file
+sort.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort.c.o
+.PHONY : sort.c.o
+
+sort.i: sort.c.i
+
+.PHONY : sort.i
+
+# target to preprocess a source file
+sort.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort.c.i
+.PHONY : sort.c.i
+
+sort.s: sort.c.s
+
+.PHONY : sort.s
+
+# target to generate assembly for a file
+sort.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort.c.s
+.PHONY : sort.c.s
 
 sort_3_elem.o: sort_3_elem.c.o
 
@@ -2350,33 +2377,6 @@ sort_3_elem.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_3_elem.c.s
 .PHONY : sort_3_elem.c.s
 
-sort_fun.o: sort_fun.c.o
-
-.PHONY : sort_fun.o
-
-# target to build an object file
-sort_fun.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_fun.c.o
-.PHONY : sort_fun.c.o
-
-sort_fun.i: sort_fun.c.i
-
-.PHONY : sort_fun.i
-
-# target to preprocess a source file
-sort_fun.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_fun.c.i
-.PHONY : sort_fun.c.i
-
-sort_fun.s: sort_fun.c.s
-
-.PHONY : sort_fun.s
-
-# target to generate assembly for a file
-sort_fun.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_fun.c.s
-.PHONY : sort_fun.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2387,9 +2387,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ft"
 	@echo "... push_swap"
-	@echo "... bubble_sort.o"
-	@echo "... bubble_sort.i"
-	@echo "... bubble_sort.s"
+	@echo "... find_median.o"
+	@echo "... find_median.i"
+	@echo "... find_median.s"
 	@echo "... ft_printf/ft_checkparam.o"
 	@echo "... ft_printf/ft_checkparam.i"
 	@echo "... ft_printf/ft_checkparam.s"
@@ -2627,15 +2627,15 @@ help:
 	@echo "... print_fun.o"
 	@echo "... print_fun.i"
 	@echo "... print_fun.s"
-	@echo "... separate_join_sort.o"
-	@echo "... separate_join_sort.i"
-	@echo "... separate_join_sort.s"
+	@echo "... separate_join.o"
+	@echo "... separate_join.i"
+	@echo "... separate_join.s"
+	@echo "... sort.o"
+	@echo "... sort.i"
+	@echo "... sort.s"
 	@echo "... sort_3_elem.o"
 	@echo "... sort_3_elem.i"
 	@echo "... sort_3_elem.s"
-	@echo "... sort_fun.o"
-	@echo "... sort_fun.i"
-	@echo "... sort_fun.s"
 .PHONY : help
 
 

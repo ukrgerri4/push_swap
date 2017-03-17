@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/bubble_sort.c
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/find_median.c
 push_swap.h
 /nfs/2016/i/ikryvenk/ClionProjects/push_swap/push_swap.h
 
@@ -68,15 +68,15 @@ ft_printf/libft/libft.h
 ft_printf/ft_printf.h
 /nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/ft_printf.h
 
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/separate_join_sort.c
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/separate_join.c
+push_swap.h
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/push_swap.h
+
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/sort.c
 push_swap.h
 /nfs/2016/i/ikryvenk/ClionProjects/push_swap/push_swap.h
 
 /nfs/2016/i/ikryvenk/ClionProjects/push_swap/sort_3_elem.c
-push_swap.h
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/push_swap.h
-
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/sort_fun.c
 push_swap.h
 /nfs/2016/i/ikryvenk/ClionProjects/push_swap/push_swap.h
 

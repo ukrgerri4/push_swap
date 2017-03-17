@@ -17,10 +17,6 @@
 #include "ft_printf/libft/libft.h"
 #include "ft_printf/ft_printf.h"
 
-int sum_oper; // DELETE
-
-char *g_oper;
-
 typedef struct  s_node
 {
     int             nb;
@@ -37,14 +33,20 @@ typedef struct s_dlist {
 
 typedef struct  s_info
 {
-    int size;
-    int push_a;
-    int push_b;
+    char    *best_operations;
+    int     best_sum;
+    char    *operation;
+    int     sum_oper;
+    int     push_a;
+    int     push_b;
+    int     counter;
+    int     i;
 }               t_info;
 /* Basic t_dlist and t_info function */
 
 t_info      *make_info(int size);
 t_dlist     *make_list(char mark);
+t_dlist     *copy_list(t_dlist *l_base);
 void        del_list(t_dlist **list);
 
 /* Basic t_node function */
@@ -58,11 +60,11 @@ void    put_list(t_dlist *list); // help function
 
 /* Basic movement functions */
 
-void    swap(t_dlist *list);
-void    push(t_dlist *list_src, t_dlist *list_dst);
-void    rotate(t_dlist *list);
-void    rev_rotate(t_dlist *list);
-void    print_command(t_dlist *src, int i);
+void    swap(t_dlist *list, t_info *info);
+void    push(t_dlist *list_src, t_dlist *list_dst, t_info *info);
+void    rotate(t_dlist *list, t_info *info);
+void    rev_rotate(t_dlist *list, t_info *info);
+void    print_command(t_dlist *src, int i, t_info *info);
 
 /* Check function */
 
@@ -79,6 +81,6 @@ void sort_3_elem_b(t_dlist *src, t_dlist *dst);
 
 /* Print function */
 
-void    vivod(char *str);
+void    vivod(char *str, t_info *info);
 
 #endif

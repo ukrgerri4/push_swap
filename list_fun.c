@@ -36,8 +36,31 @@ t_info    *make_info(int size)
 
     if (!(tmp = (t_info*)malloc(sizeof(t_info))))
         exit (1);
-    tmp->size = size;
+    tmp->best_operations = ft_strnew(100000);
+    tmp->best_sum = 0;
+    tmp->operation = ft_strnew(100000);
+    tmp->sum_oper = 0;
     tmp->push_a = size;
     tmp->push_b = 0;
+    tmp->counter = 0;
+    tmp->i = 0;
+    return (tmp);
+}
+
+t_dlist *copy_list(t_dlist *l_base)
+{
+    t_dlist *tmp;
+    t_node *tmp_base;
+    int     i;
+
+    i = 0;
+    tmp = make_list('a');
+    tmp_base = l_base->head;
+    while (i++ < l_base->size)
+    {
+        push_back_node(tmp, tmp_base->nb);
+        tmp_base = tmp_base->next;
+    }
+    tmp->size = l_base->size;
     return (tmp);
 }

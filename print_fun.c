@@ -1,31 +1,28 @@
 #include "push_swap.h"
 
-void    print_command(t_dlist *src, int i)
+void    print_command(t_dlist *src, int i, t_info *info)
 {
-    static int  j;
-
-
     if (SWAP && src->mark == 'a')
-        g_oper[j++] = '1';
+        info->operation[info->i++] = '1';
     else if (SWAP && src->mark != 'a')
-        g_oper[j++] = '2';
+        info->operation[info->i++] = '2';
     else if (PUSH && src->mark != 'a')
-        g_oper[j++] = '3';
+        info->operation[info->i++] = '3';
     else if (PUSH && src->mark == 'a')
-        g_oper[j++] = '4';
+        info->operation[info->i++] = '4';
     else if (ROTATE && src->mark == 'a')
-        g_oper[j++] = '5';
+        info->operation[info->i++] = '5';
     else if (ROTATE && src->mark != 'a')
-        g_oper[j++] = '6';
+        info->operation[info->i++] = '6';
     else if (REV_ROTATE && src->mark == 'a')
-        g_oper[j++] = '7';
+        info->operation[info->i++] = '7';
     else if (REV_ROTATE && src->mark != 'a')
-        g_oper[j++] = '8';
-    g_oper[j] = '\0';
-    sum_oper++;
+        info->operation[info->i++] = '8';
+    info->operation[info->i] = '\0';
+    info->sum_oper++;
 }
 
-void vivod(char *str)
+void vivod(char *str, t_info *info)
 {
 
     int i;
@@ -97,13 +94,14 @@ void vivod(char *str)
     {
         if (str[i] != '0')
         {
-            ft_printf("%c", str[i]);
+ //           ft_printf("%c", str[i]);
             n++;
         }
         i++;
     }
     ft_printf("\n");
-    ft_printf("N = %d\n", n);
+    info->sum_oper = n;
+    ft_printf("Best sum = %d\n", n);
 }
 
 void    put_list(t_dlist *list)

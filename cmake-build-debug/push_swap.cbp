@@ -126,7 +126,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/bubble_sort.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/find_median.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/ft_checkparam.c">
@@ -375,13 +375,13 @@
 		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/push_swap.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/separate_join_sort.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/separate_join.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/sort.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/sort_3_elem.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/sort_fun.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/CMakeLists.txt">

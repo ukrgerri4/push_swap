@@ -94,7 +94,7 @@ void vivod(char *str, t_info *info)
     {
         if (str[i] != '0')
         {
- //           ft_printf("%c", str[i]);
+            ft_printf("%c", str[i]);
             n++;
         }
         i++;

@@ -14,8 +14,8 @@
 #define SECOND_B l_b->head->next->nb
 #define THIRD_B l_b->head->next->next->nb
 
-#include "ft_printf/libft/libft.h"
-#include "ft_printf/ft_printf.h"
+#include "../libft/libft.h"
+#include "../ft_printf/ft_printf.h"
 
 typedef struct  s_node
 {

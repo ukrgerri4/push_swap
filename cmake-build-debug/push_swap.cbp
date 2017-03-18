@@ -126,262 +126,262 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/find_best_match.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/ft_printf/ft_checkparam.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/ft_printf/ft_checkparam_fun.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/ft_printf/ft_p_numb.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/ft_printf/ft_p_string.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/ft_printf/ft_p_wput_count.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/ft_printf/ft_p_wstring.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/ft_printf/ft_p_wstring2.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/ft_printf/ft_printf.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/ft_printf/ft_printf.h">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/ft_printf/ft_put_count.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/ft_printf/ft_types.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_atoi.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_bzero.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_forearr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_isalnum.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_isalpha.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_isascii.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_isdigit.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_isprint.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_itoa.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_lstadd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_lstdel.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_lstdelone.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_lstiter.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_lstmap.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_lstnew.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_memalloc.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_memccpy.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_memchr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_memcmp.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_memcpy.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_memdel.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_memmove.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_memset.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_power.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_putarr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_putchar.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_putchar_fd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_putendl.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_putendl_fd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_putnbr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_putnbr_fd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_putstr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_putstr_fd.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strcat.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strchr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strclr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strcmp.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strcount.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strcpy.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strdel.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strdup.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strequ.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_striter.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_striteri.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strjoin.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strlcat.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strlen.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strmap.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strmapi.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strncat.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strncmp.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strncpy.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strnequ.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strnew.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strnstr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strpbrk.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strrchr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strsplit.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strstr.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strsub.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_strtrim.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_tolower.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/ft_toupper.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/get_next_line.c">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/get_next_line.h">
+			<Option target="ft"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/find_best_value.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/find_median.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/find_median.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/ft_checkparam.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/ft_checkparam_fun.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/ft_p_numb.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/ft_p_string.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/ft_p_wput_count.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/ft_p_wstring.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/ft_p_wstring2.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/ft_printf.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/ft_printf.h">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/ft_put_count.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/ft_types.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_atoi.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_bzero.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_forearr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_isalnum.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_isalpha.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_isascii.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_isdigit.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_isprint.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_itoa.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_lstadd.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_lstdel.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_lstdelone.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_lstiter.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_lstmap.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_lstnew.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_memalloc.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_memccpy.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_memchr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_memcmp.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_memcpy.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_memdel.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_memmove.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_memset.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_power.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_putarr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_putchar.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_putchar_fd.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_putendl.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_putendl_fd.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_putnbr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_putnbr_fd.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_putstr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_putstr_fd.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strcat.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strchr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strclr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strcmp.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strcount.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strcpy.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strdel.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strdup.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strequ.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_striter.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_striteri.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strjoin.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strlcat.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strlen.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strmap.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strmapi.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strncat.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strncmp.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strncpy.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strnequ.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strnew.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strnstr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strpbrk.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strrchr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strsplit.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strstr.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strsub.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_strtrim.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_tolower.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/ft_toupper.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/get_next_line.c">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/ft_printf/libft/get_next_line.h">
-			<Option target="ft"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/fun_move_elem.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/fun_move_elem.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/list_fun.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/list_fun.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/main.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/main.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/node_fun.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/node_fun.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/print_fun.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/print_fun.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/push_swap.h">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/push_swap.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/separate_join.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/separate_join.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/sort.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/sort.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/CMakeLists.txt">

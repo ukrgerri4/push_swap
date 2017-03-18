@@ -12,7 +12,7 @@
 
 NAME =  libftprintf.a
 WWW = -Wall -Wextra -Werror -pipe
-LIB_PATH = libft/
+LIB_PATH = ../libft/
 LIBFT = $(LIB_PATH)libft.a
 
 OBJECTS = ft_checkparam.o ft_checkparam_fun.o ft_p_numb.o ft_p_string.o ft_printf.o ft_put_count.o ft_types.o ft_p_wstring.o ft_p_wput_count.o ft_p_wstring2.o

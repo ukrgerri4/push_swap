@@ -57,246 +57,246 @@ include CMakeFiles/push_swap.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/push_swap.dir/flags.make
 
-CMakeFiles/push_swap.dir/main.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/push_swap.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/main.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/main.c
+CMakeFiles/push_swap.dir/src/push_swap/main.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/push_swap/main.c.o: ../src/push_swap/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/push_swap.dir/src/push_swap/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/main.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/main.c
 
-CMakeFiles/push_swap.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/main.c > CMakeFiles/push_swap.dir/main.c.i
+CMakeFiles/push_swap.dir/src/push_swap/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/push_swap/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/main.c > CMakeFiles/push_swap.dir/src/push_swap/main.c.i
 
-CMakeFiles/push_swap.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/main.c -o CMakeFiles/push_swap.dir/main.c.s
+CMakeFiles/push_swap.dir/src/push_swap/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/main.c -o CMakeFiles/push_swap.dir/src/push_swap/main.c.s
 
-CMakeFiles/push_swap.dir/main.c.o.requires:
+CMakeFiles/push_swap.dir/src/push_swap/main.c.o.requires:
 
-.PHONY : CMakeFiles/push_swap.dir/main.c.o.requires
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/main.c.o.requires
 
-CMakeFiles/push_swap.dir/main.c.o.provides: CMakeFiles/push_swap.dir/main.c.o.requires
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/main.c.o.provides.build
-.PHONY : CMakeFiles/push_swap.dir/main.c.o.provides
+CMakeFiles/push_swap.dir/src/push_swap/main.c.o.provides: CMakeFiles/push_swap.dir/src/push_swap/main.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/main.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/main.c.o.provides
 
-CMakeFiles/push_swap.dir/main.c.o.provides.build: CMakeFiles/push_swap.dir/main.c.o
+CMakeFiles/push_swap.dir/src/push_swap/main.c.o.provides.build: CMakeFiles/push_swap.dir/src/push_swap/main.c.o
 
 
-CMakeFiles/push_swap.dir/node_fun.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/node_fun.c.o: ../node_fun.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/push_swap.dir/node_fun.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/node_fun.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/node_fun.c
+CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.o: ../src/push_swap/node_fun.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/node_fun.c
 
-CMakeFiles/push_swap.dir/node_fun.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/node_fun.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/node_fun.c > CMakeFiles/push_swap.dir/node_fun.c.i
+CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/node_fun.c > CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.i
 
-CMakeFiles/push_swap.dir/node_fun.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/node_fun.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/node_fun.c -o CMakeFiles/push_swap.dir/node_fun.c.s
+CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/node_fun.c -o CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.s
 
-CMakeFiles/push_swap.dir/node_fun.c.o.requires:
+CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.o.requires:
 
-.PHONY : CMakeFiles/push_swap.dir/node_fun.c.o.requires
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.o.requires
 
-CMakeFiles/push_swap.dir/node_fun.c.o.provides: CMakeFiles/push_swap.dir/node_fun.c.o.requires
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/node_fun.c.o.provides.build
-.PHONY : CMakeFiles/push_swap.dir/node_fun.c.o.provides
+CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.o.provides: CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.o.provides
 
-CMakeFiles/push_swap.dir/node_fun.c.o.provides.build: CMakeFiles/push_swap.dir/node_fun.c.o
+CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.o.provides.build: CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.o
 
 
-CMakeFiles/push_swap.dir/list_fun.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/list_fun.c.o: ../list_fun.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/push_swap.dir/list_fun.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/list_fun.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/list_fun.c
+CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.o: ../src/push_swap/list_fun.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/list_fun.c
 
-CMakeFiles/push_swap.dir/list_fun.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/list_fun.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/list_fun.c > CMakeFiles/push_swap.dir/list_fun.c.i
+CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/list_fun.c > CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.i
 
-CMakeFiles/push_swap.dir/list_fun.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/list_fun.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/list_fun.c -o CMakeFiles/push_swap.dir/list_fun.c.s
+CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/list_fun.c -o CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.s
 
-CMakeFiles/push_swap.dir/list_fun.c.o.requires:
+CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.o.requires:
 
-.PHONY : CMakeFiles/push_swap.dir/list_fun.c.o.requires
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.o.requires
 
-CMakeFiles/push_swap.dir/list_fun.c.o.provides: CMakeFiles/push_swap.dir/list_fun.c.o.requires
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/list_fun.c.o.provides.build
-.PHONY : CMakeFiles/push_swap.dir/list_fun.c.o.provides
+CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.o.provides: CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.o.provides
 
-CMakeFiles/push_swap.dir/list_fun.c.o.provides.build: CMakeFiles/push_swap.dir/list_fun.c.o
+CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.o.provides.build: CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.o
 
 
-CMakeFiles/push_swap.dir/fun_move_elem.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/fun_move_elem.c.o: ../fun_move_elem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/push_swap.dir/fun_move_elem.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/fun_move_elem.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/fun_move_elem.c
+CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.o: ../src/push_swap/fun_move_elem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/fun_move_elem.c
 
-CMakeFiles/push_swap.dir/fun_move_elem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/fun_move_elem.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/fun_move_elem.c > CMakeFiles/push_swap.dir/fun_move_elem.c.i
+CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/fun_move_elem.c > CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.i
 
-CMakeFiles/push_swap.dir/fun_move_elem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/fun_move_elem.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/fun_move_elem.c -o CMakeFiles/push_swap.dir/fun_move_elem.c.s
+CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/fun_move_elem.c -o CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.s
 
-CMakeFiles/push_swap.dir/fun_move_elem.c.o.requires:
+CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.o.requires:
 
-.PHONY : CMakeFiles/push_swap.dir/fun_move_elem.c.o.requires
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.o.requires
 
-CMakeFiles/push_swap.dir/fun_move_elem.c.o.provides: CMakeFiles/push_swap.dir/fun_move_elem.c.o.requires
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/fun_move_elem.c.o.provides.build
-.PHONY : CMakeFiles/push_swap.dir/fun_move_elem.c.o.provides
+CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.o.provides: CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.o.provides
 
-CMakeFiles/push_swap.dir/fun_move_elem.c.o.provides.build: CMakeFiles/push_swap.dir/fun_move_elem.c.o
+CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.o.provides.build: CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.o
 
 
-CMakeFiles/push_swap.dir/sort.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/sort.c.o: ../sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/push_swap.dir/sort.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sort.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/sort.c
+CMakeFiles/push_swap.dir/src/push_swap/sort.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/push_swap/sort.c.o: ../src/push_swap/sort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/push_swap.dir/src/push_swap/sort.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/sort.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/sort.c
 
-CMakeFiles/push_swap.dir/sort.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sort.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/sort.c > CMakeFiles/push_swap.dir/sort.c.i
+CMakeFiles/push_swap.dir/src/push_swap/sort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/push_swap/sort.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/sort.c > CMakeFiles/push_swap.dir/src/push_swap/sort.c.i
 
-CMakeFiles/push_swap.dir/sort.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sort.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/sort.c -o CMakeFiles/push_swap.dir/sort.c.s
+CMakeFiles/push_swap.dir/src/push_swap/sort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap/sort.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/sort.c -o CMakeFiles/push_swap.dir/src/push_swap/sort.c.s
 
-CMakeFiles/push_swap.dir/sort.c.o.requires:
+CMakeFiles/push_swap.dir/src/push_swap/sort.c.o.requires:
 
-.PHONY : CMakeFiles/push_swap.dir/sort.c.o.requires
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/sort.c.o.requires
 
-CMakeFiles/push_swap.dir/sort.c.o.provides: CMakeFiles/push_swap.dir/sort.c.o.requires
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort.c.o.provides.build
-.PHONY : CMakeFiles/push_swap.dir/sort.c.o.provides
+CMakeFiles/push_swap.dir/src/push_swap/sort.c.o.provides: CMakeFiles/push_swap.dir/src/push_swap/sort.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/sort.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/sort.c.o.provides
 
-CMakeFiles/push_swap.dir/sort.c.o.provides.build: CMakeFiles/push_swap.dir/sort.c.o
+CMakeFiles/push_swap.dir/src/push_swap/sort.c.o.provides.build: CMakeFiles/push_swap.dir/src/push_swap/sort.c.o
 
 
-CMakeFiles/push_swap.dir/separate_join.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/separate_join.c.o: ../separate_join.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/push_swap.dir/separate_join.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/separate_join.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/separate_join.c
+CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.o: ../src/push_swap/separate_join.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/separate_join.c
 
-CMakeFiles/push_swap.dir/separate_join.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/separate_join.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/separate_join.c > CMakeFiles/push_swap.dir/separate_join.c.i
+CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/separate_join.c > CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.i
 
-CMakeFiles/push_swap.dir/separate_join.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/separate_join.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/separate_join.c -o CMakeFiles/push_swap.dir/separate_join.c.s
+CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/separate_join.c -o CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.s
 
-CMakeFiles/push_swap.dir/separate_join.c.o.requires:
+CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.o.requires:
 
-.PHONY : CMakeFiles/push_swap.dir/separate_join.c.o.requires
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.o.requires
 
-CMakeFiles/push_swap.dir/separate_join.c.o.provides: CMakeFiles/push_swap.dir/separate_join.c.o.requires
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/separate_join.c.o.provides.build
-.PHONY : CMakeFiles/push_swap.dir/separate_join.c.o.provides
+CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.o.provides: CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.o.provides
 
-CMakeFiles/push_swap.dir/separate_join.c.o.provides.build: CMakeFiles/push_swap.dir/separate_join.c.o
+CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.o.provides.build: CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.o
 
 
-CMakeFiles/push_swap.dir/find_best_match.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/find_best_match.c.o: ../find_best_match.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap.dir/find_best_match.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/find_best_match.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/find_best_match.c
+CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o: ../src/push_swap/find_best_value.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/find_best_value.c
 
-CMakeFiles/push_swap.dir/find_best_match.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/find_best_match.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/find_best_match.c > CMakeFiles/push_swap.dir/find_best_match.c.i
+CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/find_best_value.c > CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.i
 
-CMakeFiles/push_swap.dir/find_best_match.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/find_best_match.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/find_best_match.c -o CMakeFiles/push_swap.dir/find_best_match.c.s
+CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/find_best_value.c -o CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.s
 
-CMakeFiles/push_swap.dir/find_best_match.c.o.requires:
+CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o.requires:
 
-.PHONY : CMakeFiles/push_swap.dir/find_best_match.c.o.requires
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o.requires
 
-CMakeFiles/push_swap.dir/find_best_match.c.o.provides: CMakeFiles/push_swap.dir/find_best_match.c.o.requires
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_best_match.c.o.provides.build
-.PHONY : CMakeFiles/push_swap.dir/find_best_match.c.o.provides
+CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o.provides: CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o.provides
 
-CMakeFiles/push_swap.dir/find_best_match.c.o.provides.build: CMakeFiles/push_swap.dir/find_best_match.c.o
+CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o.provides.build: CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o
 
 
-CMakeFiles/push_swap.dir/print_fun.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/print_fun.c.o: ../print_fun.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap.dir/print_fun.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/print_fun.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/print_fun.c
+CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.o: ../src/push_swap/print_fun.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/print_fun.c
 
-CMakeFiles/push_swap.dir/print_fun.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/print_fun.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/print_fun.c > CMakeFiles/push_swap.dir/print_fun.c.i
+CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/print_fun.c > CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.i
 
-CMakeFiles/push_swap.dir/print_fun.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/print_fun.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/print_fun.c -o CMakeFiles/push_swap.dir/print_fun.c.s
+CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/print_fun.c -o CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.s
 
-CMakeFiles/push_swap.dir/print_fun.c.o.requires:
+CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.o.requires:
 
-.PHONY : CMakeFiles/push_swap.dir/print_fun.c.o.requires
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.o.requires
 
-CMakeFiles/push_swap.dir/print_fun.c.o.provides: CMakeFiles/push_swap.dir/print_fun.c.o.requires
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print_fun.c.o.provides.build
-.PHONY : CMakeFiles/push_swap.dir/print_fun.c.o.provides
+CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.o.provides: CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.o.provides
 
-CMakeFiles/push_swap.dir/print_fun.c.o.provides.build: CMakeFiles/push_swap.dir/print_fun.c.o
+CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.o.provides.build: CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.o
 
 
-CMakeFiles/push_swap.dir/find_median.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/find_median.c.o: ../find_median.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/push_swap.dir/find_median.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/find_median.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/find_median.c
+CMakeFiles/push_swap.dir/src/push_swap/find_median.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/src/push_swap/find_median.c.o: ../src/push_swap/find_median.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/push_swap.dir/src/push_swap/find_median.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/src/push_swap/find_median.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/find_median.c
 
-CMakeFiles/push_swap.dir/find_median.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/find_median.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/find_median.c > CMakeFiles/push_swap.dir/find_median.c.i
+CMakeFiles/push_swap.dir/src/push_swap/find_median.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/src/push_swap/find_median.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/find_median.c > CMakeFiles/push_swap.dir/src/push_swap/find_median.c.i
 
-CMakeFiles/push_swap.dir/find_median.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/find_median.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/find_median.c -o CMakeFiles/push_swap.dir/find_median.c.s
+CMakeFiles/push_swap.dir/src/push_swap/find_median.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/src/push_swap/find_median.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/find_median.c -o CMakeFiles/push_swap.dir/src/push_swap/find_median.c.s
 
-CMakeFiles/push_swap.dir/find_median.c.o.requires:
+CMakeFiles/push_swap.dir/src/push_swap/find_median.c.o.requires:
 
-.PHONY : CMakeFiles/push_swap.dir/find_median.c.o.requires
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/find_median.c.o.requires
 
-CMakeFiles/push_swap.dir/find_median.c.o.provides: CMakeFiles/push_swap.dir/find_median.c.o.requires
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_median.c.o.provides.build
-.PHONY : CMakeFiles/push_swap.dir/find_median.c.o.provides
+CMakeFiles/push_swap.dir/src/push_swap/find_median.c.o.provides: CMakeFiles/push_swap.dir/src/push_swap/find_median.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/find_median.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/src/push_swap/find_median.c.o.provides
 
-CMakeFiles/push_swap.dir/find_median.c.o.provides.build: CMakeFiles/push_swap.dir/find_median.c.o
+CMakeFiles/push_swap.dir/src/push_swap/find_median.c.o.provides.build: CMakeFiles/push_swap.dir/src/push_swap/find_median.c.o
 
 
 # Object files for target push_swap
 push_swap_OBJECTS = \
-"CMakeFiles/push_swap.dir/main.c.o" \
-"CMakeFiles/push_swap.dir/node_fun.c.o" \
-"CMakeFiles/push_swap.dir/list_fun.c.o" \
-"CMakeFiles/push_swap.dir/fun_move_elem.c.o" \
-"CMakeFiles/push_swap.dir/sort.c.o" \
-"CMakeFiles/push_swap.dir/separate_join.c.o" \
-"CMakeFiles/push_swap.dir/find_best_match.c.o" \
-"CMakeFiles/push_swap.dir/print_fun.c.o" \
-"CMakeFiles/push_swap.dir/find_median.c.o"
+"CMakeFiles/push_swap.dir/src/push_swap/main.c.o" \
+"CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.o" \
+"CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.o" \
+"CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.o" \
+"CMakeFiles/push_swap.dir/src/push_swap/sort.c.o" \
+"CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.o" \
+"CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o" \
+"CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.o" \
+"CMakeFiles/push_swap.dir/src/push_swap/find_median.c.o"
 
 # External object files for target push_swap
 push_swap_EXTERNAL_OBJECTS =
 
-push_swap: CMakeFiles/push_swap.dir/main.c.o
-push_swap: CMakeFiles/push_swap.dir/node_fun.c.o
-push_swap: CMakeFiles/push_swap.dir/list_fun.c.o
-push_swap: CMakeFiles/push_swap.dir/fun_move_elem.c.o
-push_swap: CMakeFiles/push_swap.dir/sort.c.o
-push_swap: CMakeFiles/push_swap.dir/separate_join.c.o
-push_swap: CMakeFiles/push_swap.dir/find_best_match.c.o
-push_swap: CMakeFiles/push_swap.dir/print_fun.c.o
-push_swap: CMakeFiles/push_swap.dir/find_median.c.o
+push_swap: CMakeFiles/push_swap.dir/src/push_swap/main.c.o
+push_swap: CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.o
+push_swap: CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.o
+push_swap: CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.o
+push_swap: CMakeFiles/push_swap.dir/src/push_swap/sort.c.o
+push_swap: CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.o
+push_swap: CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o
+push_swap: CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.o
+push_swap: CMakeFiles/push_swap.dir/src/push_swap/find_median.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: libft.a
 push_swap: CMakeFiles/push_swap.dir/link.txt
@@ -308,15 +308,15 @@ CMakeFiles/push_swap.dir/build: push_swap
 
 .PHONY : CMakeFiles/push_swap.dir/build
 
-CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/main.c.o.requires
-CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/node_fun.c.o.requires
-CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/list_fun.c.o.requires
-CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/fun_move_elem.c.o.requires
-CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/sort.c.o.requires
-CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/separate_join.c.o.requires
-CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/find_best_match.c.o.requires
-CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/print_fun.c.o.requires
-CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/find_median.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/src/push_swap/main.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/src/push_swap/list_fun.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/src/push_swap/sort.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/src/push_swap/find_median.c.o.requires
 
 .PHONY : CMakeFiles/push_swap.dir/requires
 

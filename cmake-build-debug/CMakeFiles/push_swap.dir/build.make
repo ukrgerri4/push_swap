@@ -201,28 +201,28 @@ CMakeFiles/push_swap.dir/separate_join.c.o.provides: CMakeFiles/push_swap.dir/se
 CMakeFiles/push_swap.dir/separate_join.c.o.provides.build: CMakeFiles/push_swap.dir/separate_join.c.o
 
 
-CMakeFiles/push_swap.dir/sort_3_elem.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/sort_3_elem.c.o: ../sort_3_elem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap.dir/sort_3_elem.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/sort_3_elem.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/sort_3_elem.c
+CMakeFiles/push_swap.dir/find_best_match.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/find_best_match.c.o: ../find_best_match.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/push_swap.dir/find_best_match.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/find_best_match.c.o   -c /nfs/2016/i/ikryvenk/ClionProjects/push_swap/find_best_match.c
 
-CMakeFiles/push_swap.dir/sort_3_elem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/sort_3_elem.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/sort_3_elem.c > CMakeFiles/push_swap.dir/sort_3_elem.c.i
+CMakeFiles/push_swap.dir/find_best_match.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/find_best_match.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/i/ikryvenk/ClionProjects/push_swap/find_best_match.c > CMakeFiles/push_swap.dir/find_best_match.c.i
 
-CMakeFiles/push_swap.dir/sort_3_elem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/sort_3_elem.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/sort_3_elem.c -o CMakeFiles/push_swap.dir/sort_3_elem.c.s
+CMakeFiles/push_swap.dir/find_best_match.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/find_best_match.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/i/ikryvenk/ClionProjects/push_swap/find_best_match.c -o CMakeFiles/push_swap.dir/find_best_match.c.s
 
-CMakeFiles/push_swap.dir/sort_3_elem.c.o.requires:
+CMakeFiles/push_swap.dir/find_best_match.c.o.requires:
 
-.PHONY : CMakeFiles/push_swap.dir/sort_3_elem.c.o.requires
+.PHONY : CMakeFiles/push_swap.dir/find_best_match.c.o.requires
 
-CMakeFiles/push_swap.dir/sort_3_elem.c.o.provides: CMakeFiles/push_swap.dir/sort_3_elem.c.o.requires
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_3_elem.c.o.provides.build
-.PHONY : CMakeFiles/push_swap.dir/sort_3_elem.c.o.provides
+CMakeFiles/push_swap.dir/find_best_match.c.o.provides: CMakeFiles/push_swap.dir/find_best_match.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_best_match.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/find_best_match.c.o.provides
 
-CMakeFiles/push_swap.dir/sort_3_elem.c.o.provides.build: CMakeFiles/push_swap.dir/sort_3_elem.c.o
+CMakeFiles/push_swap.dir/find_best_match.c.o.provides.build: CMakeFiles/push_swap.dir/find_best_match.c.o
 
 
 CMakeFiles/push_swap.dir/print_fun.c.o: CMakeFiles/push_swap.dir/flags.make
@@ -281,7 +281,7 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/fun_move_elem.c.o" \
 "CMakeFiles/push_swap.dir/sort.c.o" \
 "CMakeFiles/push_swap.dir/separate_join.c.o" \
-"CMakeFiles/push_swap.dir/sort_3_elem.c.o" \
+"CMakeFiles/push_swap.dir/find_best_match.c.o" \
 "CMakeFiles/push_swap.dir/print_fun.c.o" \
 "CMakeFiles/push_swap.dir/find_median.c.o"
 
@@ -294,7 +294,7 @@ push_swap: CMakeFiles/push_swap.dir/list_fun.c.o
 push_swap: CMakeFiles/push_swap.dir/fun_move_elem.c.o
 push_swap: CMakeFiles/push_swap.dir/sort.c.o
 push_swap: CMakeFiles/push_swap.dir/separate_join.c.o
-push_swap: CMakeFiles/push_swap.dir/sort_3_elem.c.o
+push_swap: CMakeFiles/push_swap.dir/find_best_match.c.o
 push_swap: CMakeFiles/push_swap.dir/print_fun.c.o
 push_swap: CMakeFiles/push_swap.dir/find_median.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
@@ -314,7 +314,7 @@ CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/list_fun.c.o.require
 CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/fun_move_elem.c.o.requires
 CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/sort.c.o.requires
 CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/separate_join.c.o.requires
-CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/sort_3_elem.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/find_best_match.c.o.requires
 CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/print_fun.c.o.requires
 CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/find_median.c.o.requires
 

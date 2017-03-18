@@ -136,6 +136,33 @@ push_swap/fast:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
 .PHONY : push_swap/fast
 
+find_best_match.o: find_best_match.c.o
+
+.PHONY : find_best_match.o
+
+# target to build an object file
+find_best_match.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_best_match.c.o
+.PHONY : find_best_match.c.o
+
+find_best_match.i: find_best_match.c.i
+
+.PHONY : find_best_match.i
+
+# target to preprocess a source file
+find_best_match.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_best_match.c.i
+.PHONY : find_best_match.c.i
+
+find_best_match.s: find_best_match.c.s
+
+.PHONY : find_best_match.s
+
+# target to generate assembly for a file
+find_best_match.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/find_best_match.c.s
+.PHONY : find_best_match.c.s
+
 find_median.o: find_median.c.o
 
 .PHONY : find_median.o
@@ -2350,33 +2377,6 @@ sort.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort.c.s
 .PHONY : sort.c.s
 
-sort_3_elem.o: sort_3_elem.c.o
-
-.PHONY : sort_3_elem.o
-
-# target to build an object file
-sort_3_elem.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_3_elem.c.o
-.PHONY : sort_3_elem.c.o
-
-sort_3_elem.i: sort_3_elem.c.i
-
-.PHONY : sort_3_elem.i
-
-# target to preprocess a source file
-sort_3_elem.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_3_elem.c.i
-.PHONY : sort_3_elem.c.i
-
-sort_3_elem.s: sort_3_elem.c.s
-
-.PHONY : sort_3_elem.s
-
-# target to generate assembly for a file
-sort_3_elem.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/sort_3_elem.c.s
-.PHONY : sort_3_elem.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2387,6 +2387,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ft"
 	@echo "... push_swap"
+	@echo "... find_best_match.o"
+	@echo "... find_best_match.i"
+	@echo "... find_best_match.s"
 	@echo "... find_median.o"
 	@echo "... find_median.i"
 	@echo "... find_median.s"
@@ -2633,9 +2636,6 @@ help:
 	@echo "... sort.o"
 	@echo "... sort.i"
 	@echo "... sort.s"
-	@echo "... sort_3_elem.o"
-	@echo "... sort_3_elem.i"
-	@echo "... sort_3_elem.s"
 .PHONY : help
 
 

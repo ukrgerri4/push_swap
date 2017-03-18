@@ -126,6 +126,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/find_best_match.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/find_median.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -379,9 +382,6 @@
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/sort.c">
-			<Option target="push_swap"/>
-		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/sort_3_elem.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/CMakeLists.txt">

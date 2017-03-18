@@ -42,6 +42,7 @@ typedef struct  s_info
     int     counter;
     int     i;
 }               t_info;
+
 /* Basic t_dlist and t_info function */
 
 t_info      *make_info(int size);
@@ -76,11 +77,15 @@ void    joining(t_dlist *src, t_dlist *dst, t_info *info);
 int     find_median(t_dlist *src, int len);
 int     check_sorted(t_dlist *src, int len);
 
-void sort_3_elem_a(t_dlist *src, t_dlist *dst);
-void sort_3_elem_b(t_dlist *src, t_dlist *dst);
+/* find best value function */
 
 /* Print function */
 
+void put_comand(t_info *info);
+
 void    vivod(char *str, t_info *info);
+
+void    try_rotate(t_dlist *l_start, t_dlist *l_a, t_dlist *l_b, t_info *info);
+void    try_rev_rotate(t_dlist *l_start, t_dlist *l_a, t_dlist *l_b, t_info *info);
 
 #endif

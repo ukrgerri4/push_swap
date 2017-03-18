@@ -5,7 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/fun_move_elem.c.o"
   "CMakeFiles/push_swap.dir/sort.c.o"
   "CMakeFiles/push_swap.dir/separate_join.c.o"
-  "CMakeFiles/push_swap.dir/sort_3_elem.c.o"
+  "CMakeFiles/push_swap.dir/find_best_match.c.o"
   "CMakeFiles/push_swap.dir/print_fun.c.o"
   "CMakeFiles/push_swap.dir/find_median.c.o"
   "push_swap.pdb"

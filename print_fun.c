@@ -129,3 +129,33 @@ void    put_list(t_dlist *list)
     }
     ft_printf("\nSize = %d, Mark = %c\n", list->size, list->mark);
 }
+
+void put_comand(t_info *info)
+{
+    while (info->best_operations[++(info->i)])
+    {
+        if (info->best_operations[info->i] == '1')
+            ft_printf("sa\n");
+        else if (info->best_operations[info->i] == '2')
+            ft_printf("sb\n");
+        else if (info->best_operations[info->i] == '3')
+            ft_printf("pa\n");
+        else if (info->best_operations[info->i] == '4')
+            ft_printf("pb\n");
+        else if (info->best_operations[info->i] == '5')
+            ft_printf("ra\n");
+        else if (info->best_operations[info->i] == '6')
+            ft_printf("rb\n");
+        else if (info->best_operations[info->i] == '7')
+            ft_printf("rra\n");
+        else if (info->best_operations[info->i] == '8')
+            ft_printf("rrb\n");
+        else if (info->best_operations[info->i] == 's')
+            ft_printf("ss\n");
+        else if (info->best_operations[info->i] == 'r')
+            ft_printf("rr\n");
+        else if (info->best_operations[info->i] == 'v')
+            ft_printf("rrr\n");
+    }
+    ft_printf("%d\n", info->best_sum); /// need delete to have 25 lines
+}

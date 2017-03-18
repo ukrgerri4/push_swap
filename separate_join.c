@@ -1,6 +1,6 @@
 #include "push_swap.h"
 
-int     check_last_pushed_element(t_dlist *src, int median,int len)
+static int     check_last_pushed_element(t_dlist *src, int median,int len)
 {
     t_node *tmp;
 
@@ -36,8 +36,8 @@ void    separation_a(t_dlist *l_a, t_dlist *l_b, t_info *info)
 
     i = 0;
     j = 0;
-    start_b = info->push_b;
     pushed = 0;
+    start_b = info->push_b;
     median = find_median(l_a, info->push_a);
     while (i < info->push_a)
     {

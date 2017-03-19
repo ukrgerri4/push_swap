@@ -19,6 +19,21 @@ void    q_sort(t_dlist *l_a, t_dlist *l_b, t_info *info)
 }
 
 
+void    freeeeee(t_dlist **l_a, t_dlist **l_b, t_dlist **l_start, t_info *info)
+{
+    if (*l_a)
+        del_list(l_a);
+    if (*l_b)
+        del_list(l_b);
+    if (*l_start)
+        del_list(l_start);
+
+    ft_strdel(&info->operation);
+    ft_strdel(&info->best_operations);
+    free(info);
+    info = NULL;
+}
+
 int         main(int argc, char **argv)
 {
     t_dlist *l_start;
@@ -41,6 +56,7 @@ int         main(int argc, char **argv)
         try_rev_rotate(l_start, l_a, l_b, info);
         info->i = -1;
         put_comand(info);
+        freeeeee(&l_a, &l_b, &l_start, info);
     }
     return (0);
 }

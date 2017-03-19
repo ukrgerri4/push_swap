@@ -41,6 +41,8 @@ ft_printf.h
 /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/ft_printf/ft_printf.h
 ../libft/libft.h
 /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/libft.h
+../ft_printf/ft_printf.h
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/ft_printf/ft_printf.h
 stdarg.h
 -
 string.h

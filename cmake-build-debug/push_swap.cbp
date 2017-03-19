@@ -354,6 +354,9 @@
 		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/get_next_line.h">
 			<Option target="ft"/>
 		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/check_join.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/combination_0.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -384,10 +387,16 @@
 		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/push_swap.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/separate_join.c">
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/separation_a.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/separation_b.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/sort.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/validator.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/CMakeLists.txt">

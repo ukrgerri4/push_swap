@@ -22,8 +22,7 @@ void    try_rotate(t_dlist *l_start, t_dlist *l_a, t_dlist *l_b, t_info *info)
         while (info->counter++ < i)
             rotate(l_a, info);
         q_sort(l_a, l_b, info);
-        combination(info->operation, info); // need to del
-        ft_printf("OPER = %d\n", info->best_sum);
+        combination(info->operation, info);
         if ((info->sum_oper < info->best_sum) || info->best_sum == 0)
         {
             ft_bzero(info->best_operations, (size_t)info->best_sum);
@@ -48,8 +47,7 @@ void try_rev_rotate(t_dlist *l_start, t_dlist *l_a, t_dlist *l_b, t_info *info)
         while (info->counter++ < i)
             rev_rotate(l_a, info);
         q_sort(l_a, l_b, info);
-        combination(info->operation, info); // need to del
-        ft_printf("OPER = %d\n", info->best_sum);
+        combination(info->operation, info);
         if ((info->sum_oper < info->best_sum) || info->best_sum == 0)
         {
             ft_bzero(info->best_operations, (size_t)info->best_sum);

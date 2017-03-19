@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/check_join.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap/check_join.c.o"
   "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/combination_0.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap/combination_0.c.o"
   "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/combination_1.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap/combination_1.c.o"
   "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/find_best_value.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o"
@@ -13,8 +14,10 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/main.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap/main.c.o"
   "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/node_fun.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap/node_fun.c.o"
   "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/print_fun.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.o"
-  "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/separate_join.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.o"
+  "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/separation_a.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap/separation_a.c.o"
+  "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/separation_b.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap/separation_b.c.o"
   "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/sort.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap/sort.c.o"
+  "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/validator.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap/validator.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

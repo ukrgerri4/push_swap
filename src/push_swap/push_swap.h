@@ -65,11 +65,17 @@ void    rotate(t_dlist *list, t_info *info);
 void    rev_rotate(t_dlist *list, t_info *info);
 void    print_command(t_dlist *src, int i, t_info *info);
 
+/* Validation function */
+
+int     validation(int argc, char **argv);
+void    shells_sort(int *arr, int n, int tmp);
+
 /* Check function */
 
 void    q_sort(t_dlist *l_a, t_dlist *l_b, t_info *info);
 void    separation_a(t_dlist *l_a, t_dlist *l_b, t_info *info);
 int     separation_b(t_dlist *l_a, t_dlist *l_b, t_info *info);
+int     check_last_pushed_element(t_dlist *src, int median,int len);
 void    sort_list(t_dlist *src, t_dlist *dst, t_info *info);
 void    joining(t_dlist *src, t_dlist *dst, t_info *info);
 int     find_median(t_dlist *src, int len);

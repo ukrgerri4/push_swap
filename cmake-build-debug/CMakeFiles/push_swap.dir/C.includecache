@@ -9,6 +9,8 @@
 /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/ft_printf/ft_printf.h
 ../libft/libft.h
 /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/libft.h
+../ft_printf/ft_printf.h
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/ft_printf/ft_printf.h
 stdarg.h
 -
 string.h
@@ -37,6 +39,10 @@ stdlib.h
 -
 unistd.h
 -
+
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/check_join.c
+push_swap.h
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/push_swap.h
 
 /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/combination_0.c
 push_swap.h
@@ -80,7 +86,11 @@ push_swap.h
 ../ft_printf/ft_printf.h
 /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/ft_printf/ft_printf.h
 
-/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/separate_join.c
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/separation_a.c
+push_swap.h
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/push_swap.h
+
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/separation_b.c
 push_swap.h
 /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/push_swap.h
 

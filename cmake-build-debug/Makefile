@@ -2134,6 +2134,33 @@ src/libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/src/libft/get_next_line.c.s
 .PHONY : src/libft/get_next_line.c.s
 
+src/push_swap/check_join.o: src/push_swap/check_join.c.o
+
+.PHONY : src/push_swap/check_join.o
+
+# target to build an object file
+src/push_swap/check_join.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/check_join.c.o
+.PHONY : src/push_swap/check_join.c.o
+
+src/push_swap/check_join.i: src/push_swap/check_join.c.i
+
+.PHONY : src/push_swap/check_join.i
+
+# target to preprocess a source file
+src/push_swap/check_join.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/check_join.c.i
+.PHONY : src/push_swap/check_join.c.i
+
+src/push_swap/check_join.s: src/push_swap/check_join.c.s
+
+.PHONY : src/push_swap/check_join.s
+
+# target to generate assembly for a file
+src/push_swap/check_join.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/check_join.c.s
+.PHONY : src/push_swap/check_join.c.s
+
 src/push_swap/combination_0.o: src/push_swap/combination_0.c.o
 
 .PHONY : src/push_swap/combination_0.o
@@ -2377,32 +2404,59 @@ src/push_swap/print_fun.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.s
 .PHONY : src/push_swap/print_fun.c.s
 
-src/push_swap/separate_join.o: src/push_swap/separate_join.c.o
+src/push_swap/separation_a.o: src/push_swap/separation_a.c.o
 
-.PHONY : src/push_swap/separate_join.o
+.PHONY : src/push_swap/separation_a.o
 
 # target to build an object file
-src/push_swap/separate_join.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.o
-.PHONY : src/push_swap/separate_join.c.o
+src/push_swap/separation_a.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/separation_a.c.o
+.PHONY : src/push_swap/separation_a.c.o
 
-src/push_swap/separate_join.i: src/push_swap/separate_join.c.i
+src/push_swap/separation_a.i: src/push_swap/separation_a.c.i
 
-.PHONY : src/push_swap/separate_join.i
+.PHONY : src/push_swap/separation_a.i
 
 # target to preprocess a source file
-src/push_swap/separate_join.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.i
-.PHONY : src/push_swap/separate_join.c.i
+src/push_swap/separation_a.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/separation_a.c.i
+.PHONY : src/push_swap/separation_a.c.i
 
-src/push_swap/separate_join.s: src/push_swap/separate_join.c.s
+src/push_swap/separation_a.s: src/push_swap/separation_a.c.s
 
-.PHONY : src/push_swap/separate_join.s
+.PHONY : src/push_swap/separation_a.s
 
 # target to generate assembly for a file
-src/push_swap/separate_join.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/separate_join.c.s
-.PHONY : src/push_swap/separate_join.c.s
+src/push_swap/separation_a.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/separation_a.c.s
+.PHONY : src/push_swap/separation_a.c.s
+
+src/push_swap/separation_b.o: src/push_swap/separation_b.c.o
+
+.PHONY : src/push_swap/separation_b.o
+
+# target to build an object file
+src/push_swap/separation_b.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/separation_b.c.o
+.PHONY : src/push_swap/separation_b.c.o
+
+src/push_swap/separation_b.i: src/push_swap/separation_b.c.i
+
+.PHONY : src/push_swap/separation_b.i
+
+# target to preprocess a source file
+src/push_swap/separation_b.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/separation_b.c.i
+.PHONY : src/push_swap/separation_b.c.i
+
+src/push_swap/separation_b.s: src/push_swap/separation_b.c.s
+
+.PHONY : src/push_swap/separation_b.s
+
+# target to generate assembly for a file
+src/push_swap/separation_b.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/separation_b.c.s
+.PHONY : src/push_swap/separation_b.c.s
 
 src/push_swap/sort.o: src/push_swap/sort.c.o
 
@@ -2430,6 +2484,33 @@ src/push_swap/sort.s: src/push_swap/sort.c.s
 src/push_swap/sort.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/sort.c.s
 .PHONY : src/push_swap/sort.c.s
+
+src/push_swap/validator.o: src/push_swap/validator.c.o
+
+.PHONY : src/push_swap/validator.o
+
+# target to build an object file
+src/push_swap/validator.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/validator.c.o
+.PHONY : src/push_swap/validator.c.o
+
+src/push_swap/validator.i: src/push_swap/validator.c.i
+
+.PHONY : src/push_swap/validator.i
+
+# target to preprocess a source file
+src/push_swap/validator.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/validator.c.i
+.PHONY : src/push_swap/validator.c.i
+
+src/push_swap/validator.s: src/push_swap/validator.c.s
+
+.PHONY : src/push_swap/validator.s
+
+# target to generate assembly for a file
+src/push_swap/validator.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/validator.c.s
+.PHONY : src/push_swap/validator.c.s
 
 # Help Target
 help:
@@ -2663,6 +2744,9 @@ help:
 	@echo "... src/libft/get_next_line.o"
 	@echo "... src/libft/get_next_line.i"
 	@echo "... src/libft/get_next_line.s"
+	@echo "... src/push_swap/check_join.o"
+	@echo "... src/push_swap/check_join.i"
+	@echo "... src/push_swap/check_join.s"
 	@echo "... src/push_swap/combination_0.o"
 	@echo "... src/push_swap/combination_0.i"
 	@echo "... src/push_swap/combination_0.s"
@@ -2690,12 +2774,18 @@ help:
 	@echo "... src/push_swap/print_fun.o"
 	@echo "... src/push_swap/print_fun.i"
 	@echo "... src/push_swap/print_fun.s"
-	@echo "... src/push_swap/separate_join.o"
-	@echo "... src/push_swap/separate_join.i"
-	@echo "... src/push_swap/separate_join.s"
+	@echo "... src/push_swap/separation_a.o"
+	@echo "... src/push_swap/separation_a.i"
+	@echo "... src/push_swap/separation_a.s"
+	@echo "... src/push_swap/separation_b.o"
+	@echo "... src/push_swap/separation_b.i"
+	@echo "... src/push_swap/separation_b.s"
 	@echo "... src/push_swap/sort.o"
 	@echo "... src/push_swap/sort.i"
 	@echo "... src/push_swap/sort.s"
+	@echo "... src/push_swap/validator.o"
+	@echo "... src/push_swap/validator.i"
+	@echo "... src/push_swap/validator.s"
 .PHONY : help
 
 

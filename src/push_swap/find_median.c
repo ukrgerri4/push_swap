@@ -1,6 +1,6 @@
 #include "push_swap.h"
 
-static void shells_sort(int *arr, int n, int tmp)
+void shells_sort(int *arr, int n, int tmp)
 {
     int k;
     int i;
@@ -49,5 +49,7 @@ int     find_median(t_dlist *list, int len)
     }
     shells_sort(arr, len, cnt);
     median = arr[(len / 2)];
+    free(arr);
+    arr = NULL;
     return (median);
 }

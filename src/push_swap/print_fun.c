@@ -22,7 +22,7 @@ void    print_command(t_dlist *src, int i, t_info *info)
     info->sum_oper++;
 }
 
-void    put_list(t_dlist *list) // delete
+void    put_list(t_dlist *list)
 {
     int     i;
     t_node  *tmp;
@@ -75,5 +75,4 @@ void put_comand(t_info *info)
         else if (info->best_operations[info->i] == 'v')
             ft_printf("rrr\n");
     }
-    ft_printf("OPER = %d\n", info->best_sum);
 }

@@ -354,6 +354,12 @@
 		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/libft/get_next_line.h">
 			<Option target="ft"/>
 		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/combination_0.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/combination_1.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/find_best_value.c">
 			<Option target="push_swap"/>
 		</Unit>

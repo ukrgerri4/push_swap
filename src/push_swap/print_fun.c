@@ -22,89 +22,7 @@ void    print_command(t_dlist *src, int i, t_info *info)
     info->sum_oper++;
 }
 
-void vivod(char *str, t_info *info)
-{
-
-    int i;
-    int n;
-
-    i = 0;
-    while (str[i])
-    {
-        n = 0;
-        while (str[i] && str[i - (2 * n + 1)] && str[i] == '3' && str[i - (2 * n + 1)] == '4')
-        {
-            str[i] = '0';
-            str[i++ - (2 * n++ + 1)] = '0';
-        }
-        n = 0;
-        while (str[i] && str[i - (2 * n + 1)] && str[i] == '4' && str[i - (2 * n + 1)] == '3')
-        {
-            str[i] = '0';
-            str[i++ - (2 * n++ + 1)] = '0';
-        }
-        n = 0;
-        while (str[i] && str[i - (2 * n + 1)] && str[i] == '8' && str[i - (2 * n + 1)] == '6')
-        {
-            str[i] = '0';
-            str[i++ - (2 * n++ + 1)] = '0';
-        }
-        n = 0;
-        while (str[i] && str[i - (2 * n + 1)] && str[i] == '6' && str[i - (2 * n + 1)] == '8')
-        {
-            str[i] = '0';
-            str[i++ - (2 * n++ + 1)] = '0';
-        }
-        n = 0;
-        while (str[i] && str[i - (2 * n + 1)] && str[i] == '7' && str[i - (2 * n + 1)] == '5')
-        {
-            str[i] = '0';
-            str[i++ - (2 * n++ + 1)] = '0';
-        }
-        n = 0;
-        while (str[i] && str[i - (2 * n + 1)] && str[i] == '5' && str[i - (2 * n + 1)] == '7')
-        {
-            str[i] = '0';
-            str[i++ - (2 * n++ + 1)] = '0';
-        }
-        if (str[i] && str[i - 1] && ((str[i] == '1' && str[i - 1] == '2') ||
-                                     (str[i] == '2' && str[i - 1] == '1')))
-        {
-            str[i] = '0';
-            str[i - 1] = 's';
-        }
-        if (str[i] && str[i - 1] && ((str[i] == '5' && str[i - 1] == '6') ||
-                                     (str[i] == '6' && str[i - 1] == '5')))
-        {
-            str[i] = '0';
-            str[i - 1] = 'r';
-        }
-        if (str[i] && str[i - 1] && ((str[i] == '7' && str[i - 1] == '8') ||
-                                     (str[i] == '8' && str[i - 1] == '7')))
-        {
-            str[i] = '0';
-            str[i - 1] = 'v';
-        }
-        i++;
-    }
-
-    i = 0;
-    n = 0;
-    while (str[i])
-    {
-        if (str[i] != '0')
-        {
-            ft_printf("%c", str[i]);
-            n++;
-        }
-        i++;
-    }
-    ft_printf("\n");
-    info->sum_oper = n;
-    ft_printf("Best sum = %d\n", n);
-}
-
-void    put_list(t_dlist *list)
+void    put_list(t_dlist *list) // delete
 {
     int     i;
     t_node  *tmp;
@@ -157,5 +75,5 @@ void put_comand(t_info *info)
         else if (info->best_operations[info->i] == 'v')
             ft_printf("rrr\n");
     }
-    ft_printf("%d\n", info->best_sum); /// need delete to have 25 lines
+    ft_printf("OPER = %d\n", info->best_sum);
 }

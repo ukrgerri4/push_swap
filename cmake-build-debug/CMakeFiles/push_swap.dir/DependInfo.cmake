@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/combination_0.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap/combination_0.c.o"
+  "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/combination_1.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap/combination_1.c.o"
   "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/find_best_value.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o"
   "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/find_median.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap/find_median.c.o"
   "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/fun_move_elem.c" "/nfs/2016/i/ikryvenk/ClionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/src/push_swap/fun_move_elem.c.o"

@@ -2134,6 +2134,60 @@ src/libft/get_next_line.c.s:
 	$(MAKE) -f CMakeFiles/ft.dir/build.make CMakeFiles/ft.dir/src/libft/get_next_line.c.s
 .PHONY : src/libft/get_next_line.c.s
 
+src/push_swap/combination_0.o: src/push_swap/combination_0.c.o
+
+.PHONY : src/push_swap/combination_0.o
+
+# target to build an object file
+src/push_swap/combination_0.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/combination_0.c.o
+.PHONY : src/push_swap/combination_0.c.o
+
+src/push_swap/combination_0.i: src/push_swap/combination_0.c.i
+
+.PHONY : src/push_swap/combination_0.i
+
+# target to preprocess a source file
+src/push_swap/combination_0.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/combination_0.c.i
+.PHONY : src/push_swap/combination_0.c.i
+
+src/push_swap/combination_0.s: src/push_swap/combination_0.c.s
+
+.PHONY : src/push_swap/combination_0.s
+
+# target to generate assembly for a file
+src/push_swap/combination_0.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/combination_0.c.s
+.PHONY : src/push_swap/combination_0.c.s
+
+src/push_swap/combination_1.o: src/push_swap/combination_1.c.o
+
+.PHONY : src/push_swap/combination_1.o
+
+# target to build an object file
+src/push_swap/combination_1.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/combination_1.c.o
+.PHONY : src/push_swap/combination_1.c.o
+
+src/push_swap/combination_1.i: src/push_swap/combination_1.c.i
+
+.PHONY : src/push_swap/combination_1.i
+
+# target to preprocess a source file
+src/push_swap/combination_1.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/combination_1.c.i
+.PHONY : src/push_swap/combination_1.c.i
+
+src/push_swap/combination_1.s: src/push_swap/combination_1.c.s
+
+.PHONY : src/push_swap/combination_1.s
+
+# target to generate assembly for a file
+src/push_swap/combination_1.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/push_swap/combination_1.c.s
+.PHONY : src/push_swap/combination_1.c.s
+
 src/push_swap/find_best_value.o: src/push_swap/find_best_value.c.o
 
 .PHONY : src/push_swap/find_best_value.o
@@ -2609,6 +2663,12 @@ help:
 	@echo "... src/libft/get_next_line.o"
 	@echo "... src/libft/get_next_line.i"
 	@echo "... src/libft/get_next_line.s"
+	@echo "... src/push_swap/combination_0.o"
+	@echo "... src/push_swap/combination_0.i"
+	@echo "... src/push_swap/combination_0.s"
+	@echo "... src/push_swap/combination_1.o"
+	@echo "... src/push_swap/combination_1.i"
+	@echo "... src/push_swap/combination_1.s"
 	@echo "... src/push_swap/find_best_value.o"
 	@echo "... src/push_swap/find_best_value.i"
 	@echo "... src/push_swap/find_best_value.s"

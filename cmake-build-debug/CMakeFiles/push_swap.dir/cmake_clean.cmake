@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/src/push_swap/find_best_value.c.o"
   "CMakeFiles/push_swap.dir/src/push_swap/print_fun.c.o"
   "CMakeFiles/push_swap.dir/src/push_swap/find_median.c.o"
+  "CMakeFiles/push_swap.dir/src/push_swap/combination_0.c.o"
+  "CMakeFiles/push_swap.dir/src/push_swap/combination_1.c.o"
   "push_swap.pdb"
   "push_swap"
 )

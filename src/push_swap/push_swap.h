@@ -57,8 +57,6 @@ int     pop_front_node(t_dlist *list);
 void    push_back_node(t_dlist *list, int n);
 int     pop_back_node(t_dlist *list);
 
-void    put_list(t_dlist *list); // help function
-
 /* Basic movement functions */
 
 void    swap(t_dlist *list, t_info *info);
@@ -79,13 +77,19 @@ int     check_sorted(t_dlist *src, int len);
 
 /* find best value function */
 
-/* Print function */
-
-void put_comand(t_info *info);
-
-void    vivod(char *str, t_info *info);
-
 void    try_rotate(t_dlist *l_start, t_dlist *l_a, t_dlist *l_b, t_info *info);
 void    try_rev_rotate(t_dlist *l_start, t_dlist *l_a, t_dlist *l_b, t_info *info);
+
+/* Print function */
+
+void    put_comand(t_info *info);
+void    combination(char *str, t_info *info);
+void    pa_pb(char *str, int *i);
+void    pb_pa(char *str, int *i);
+void    ra_rra(char *str, int *i);
+void    rra_ra(char *str, int *i);
+void    rb_rrb(char *str, int *i);
+
+void    put_list(t_dlist *list); // help function
 
 #endif

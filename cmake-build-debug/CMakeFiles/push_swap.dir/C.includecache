@@ -38,6 +38,14 @@ stdlib.h
 unistd.h
 -
 
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/combination_0.c
+push_swap.h
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/push_swap.h
+
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/combination_1.c
+push_swap.h
+/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/push_swap.h
+
 /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/find_best_value.c
 push_swap.h
 /nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/push_swap/push_swap.h

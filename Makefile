@@ -1,4 +1,4 @@
-NAME = push_swapgit
+NAME = push_swap
 WWW = -Wall -Wextra -Werror
 LIB_PATH = src/libft/
 LIBFT = $(LIB_PATH)libft.a

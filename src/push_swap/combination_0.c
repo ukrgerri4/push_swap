@@ -1,71 +1,84 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   combination_0.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ikryvenk <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/03/20 17:38:38 by ikryvenk          #+#    #+#             */
+/*   Updated: 2017/03/20 17:39:47 by ikryvenk         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "push_swap.h"
 
-void    rrb_rb(char *str, int *i)
+void	rrb_rb(char *str, int *i)
 {
-    int n;
+	int	n;
 
-    n = 0;
-    while (str[*i] && str[*i - (2 * n + 1)] && str[*i] == '8' && str[*i - (2 * n + 1)] == '6')
-    {
-        str[*i] = '0';
-        str[(*i)++ - (2 * n++ + 1)] = '0';
-    }
+	n = 0;
+	while (str[*i] && str[*i - (2 * n + 1)] && str[*i] == '8' &&
+			str[*i - (2 * n + 1)] == '6')
+	{
+		str[*i] = '0';
+		str[(*i)++ - (2 * n++ + 1)] = '0';
+	}
 }
 
-void    sasb_rarb_rrarrb(char *str, int i)
+void	sasb_rarb_rrarrb(char *str, int i)
 {
-    if (str[i] && str[i - 1] && ((str[i] == '1' && str[i - 1] == '2') ||
-                                 (str[i] == '2' && str[i - 1] == '1')))
-    {
-        str[i] = '0';
-        str[i - 1] = 's';
-    }
-    if (str[i] && str[i - 1] && ((str[i] == '5' && str[i - 1] == '6') ||
-                                 (str[i] == '6' && str[i - 1] == '5')))
-    {
-        str[i] = '0';
-        str[i - 1] = 'r';
-    }
-    if (str[i] && str[i - 1] && ((str[i] == '7' && str[i - 1] == '8') ||
-                                 (str[i] == '8' && str[i - 1] == '7')))
-    {
-        str[i] = '0';
-        str[i - 1] = 'v';
-    }
+	if (str[i] && str[i - 1] && ((str[i] == '1' && str[i - 1] == '2') ||
+				(str[i] == '2' && str[i - 1] == '1')))
+	{
+		str[i] = '0';
+		str[i - 1] = 's';
+	}
+	if (str[i] && str[i - 1] && ((str[i] == '5' && str[i - 1] == '6') ||
+				(str[i] == '6' && str[i - 1] == '5')))
+	{
+		str[i] = '0';
+		str[i - 1] = 'r';
+	}
+	if (str[i] && str[i - 1] && ((str[i] == '7' && str[i - 1] == '8') ||
+				(str[i] == '8' && str[i - 1] == '7')))
+	{
+		str[i] = '0';
+		str[i - 1] = 'v';
+	}
 }
 
-void    revrite_operation(char *str, t_info *info)
+void	revrite_operation(char *str, t_info *info)
 {
-    int i;
-    int n;
+	int	i;
+	int	n;
 
-    i = 0;
-    n = 0;
-    while (str[i])
-    {
-        if (str[i] != '0')
-            n++;
-        i++;
-    }
-    info->sum_oper = n;
+	i = 0;
+	n = 0;
+	while (str[i])
+	{
+		if (str[i] != '0')
+			n++;
+		i++;
+	}
+	info->sum_oper = n;
 }
 
-void combination(char *str, t_info *info)
+void	combination(char *str, t_info *info)
 {
-    int i;
-    int n;
+	int	i;
+	int	n;
 
-    i = 0;
-    while (str[i])
-    {
-        pa_pb(str, &i);
-        pb_pa(str, &i);
-        ra_rra(str, &i);
-        rra_ra(str, &i);
-        rb_rrb(str, &i);
-        rrb_rb(str, &i);
-        sasb_rarb_rrarrb(str, i);
-        i++;
-    }
-    revrite_operation(str, info);
+	i = 0;
+	while (str[i])
+	{
+		pa_pb(str, &i);
+		pb_pa(str, &i);
+		ra_rra(str, &i);
+		rra_ra(str, &i);
+		rb_rrb(str, &i);
+		rrb_rb(str, &i);
+		sasb_rarb_rrarrb(str, i);
+		i++;
+	}
+	revrite_operation(str, info);
 }

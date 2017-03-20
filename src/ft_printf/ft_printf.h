@@ -6,7 +6,7 @@
 /*   By: ikryvenk <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/04 20:07:24 by ikryvenk          #+#    #+#             */
-/*   Updated: 2017/02/07 15:58:41 by ikryvenk         ###   ########.fr       */
+/*   Updated: 2017/03/20 17:33:42 by ikryvenk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,10 +81,10 @@ char			*ft_tolower_str(char *s);
 */
 
 /*
-int				ft_atoi(const char *str);
-void			ft_bzero(void *str, size_t n);
-size_t			ft_strlen(const char *str);
-void			ft_strdel(char **as);
+**int				ft_atoi(const char *str);
+**void			ft_bzero(void *str, size_t n);
+**size_t			ft_strlen(const char *str);
+**void			ft_strdel(char **as);
 */
 
 size_t			ft_wstrlen(wchar_t *str);

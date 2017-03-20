@@ -126,6 +126,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/checker/flags_fun.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/nfs/2016/i/ikryvenk/ClionProjects/push_swap/src/ft_printf/ft_checkparam.c">
 			<Option target="ft"/>
 		</Unit>

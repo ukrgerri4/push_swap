@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ikryvenk <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2017/03/20 18:37:08 by ikryvenk          #+#    #+#              #
+#    Updated: 2017/03/20 18:37:11 by ikryvenk         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME_1 = bin/push_swap
 NAME_2 = bin/checker
 BIN = bin
@@ -16,7 +28,9 @@ OBJECTS_PS = src/push_swap/find_best_value.o src/push_swap/list_fun.o \
             src/push_swap/combination_1.o src/push_swap/validator.o
 
 OBJECTS_C = src/checker/checker.o \
-            src/checker/move_fun.o
+            src/checker/move_fun.o \
+			src/checker/move_fun_1.o \
+            src/checker/flags_fun.o
 
 OBJECTS_C_PS = src/push_swap/list_fun.o \
                 src/push_swap/node_fun.o \

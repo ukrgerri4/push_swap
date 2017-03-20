@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/src/push_swap/separation_a.c.o"
   "CMakeFiles/push_swap.dir/src/push_swap/separation_b.c.o"
   "CMakeFiles/push_swap.dir/src/push_swap/validator.c.o"
+  "CMakeFiles/push_swap.dir/src/checker/flags_fun.c.o"
   "push_swap.pdb"
   "push_swap"
 )

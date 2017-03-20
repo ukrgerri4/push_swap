@@ -1,28 +1,36 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.h                                    :+:      :+:    :+:   */
+/*   flags_fun.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ikryvenk <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/12/26 20:42:54 by ikryvenk          #+#    #+#             */
-/*   Updated: 2017/01/16 18:46:43 by ikryvenk         ###   ########.fr       */
+/*   Created: 2017/03/20 17:20:54 by ikryvenk          #+#    #+#             */
+/*   Updated: 2017/03/20 17:26:52 by ikryvenk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
+#include "checker.h"
 
-# include "libft.h"
-
-# define BUFF_SIZE 64
-
-typedef struct		s_buf
+t_flag	*make_flags(void)
 {
-	char			*buf;
-	int				fd;
-	struct s_buf	*next;
-}					t_buf;
+	t_flag	*tmp;
 
-int					get_next_line(const int fd, char **line);
-#endif
+	tmp = (t_flag*)malloc(sizeof(t_flag));
+	tmp->v_flag = 0;
+	return (tmp);
+}
+
+char	**check_flags(int *argc, char **argv, t_flag *flag)
+{
+	char	**tmp_argv;
+
+	tmp_argv = 0;
+	if (ft_strcmp(argv[1], "-v") == 0)
+	{
+		argv++;
+		(*argc)--;
+		flag->v_flag = 1;
+	}
+	return (argv);
+}

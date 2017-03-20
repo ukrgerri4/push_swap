@@ -136,6 +136,33 @@ push_swap/fast:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
 .PHONY : push_swap/fast
 
+src/checker/flags_fun.o: src/checker/flags_fun.c.o
+
+.PHONY : src/checker/flags_fun.o
+
+# target to build an object file
+src/checker/flags_fun.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/checker/flags_fun.c.o
+.PHONY : src/checker/flags_fun.c.o
+
+src/checker/flags_fun.i: src/checker/flags_fun.c.i
+
+.PHONY : src/checker/flags_fun.i
+
+# target to preprocess a source file
+src/checker/flags_fun.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/checker/flags_fun.c.i
+.PHONY : src/checker/flags_fun.c.i
+
+src/checker/flags_fun.s: src/checker/flags_fun.c.s
+
+.PHONY : src/checker/flags_fun.s
+
+# target to generate assembly for a file
+src/checker/flags_fun.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/src/checker/flags_fun.c.s
+.PHONY : src/checker/flags_fun.c.s
+
 src/ft_printf/ft_checkparam.o: src/ft_printf/ft_checkparam.c.o
 
 .PHONY : src/ft_printf/ft_checkparam.o
@@ -2522,6 +2549,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ft"
 	@echo "... push_swap"
+	@echo "... src/checker/flags_fun.o"
+	@echo "... src/checker/flags_fun.i"
+	@echo "... src/checker/flags_fun.s"
 	@echo "... src/ft_printf/ft_checkparam.o"
 	@echo "... src/ft_printf/ft_checkparam.i"
 	@echo "... src/ft_printf/ft_checkparam.s"

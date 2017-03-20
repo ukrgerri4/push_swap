@@ -6,7 +6,7 @@
 /*   By: ikryvenk <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/16 18:45:59 by ikryvenk          #+#    #+#             */
-/*   Updated: 2017/01/16 18:46:32 by ikryvenk         ###   ########.fr       */
+/*   Updated: 2017/03/20 17:34:24 by ikryvenk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,10 +71,9 @@ static char			*add_memory(char *line, int len)
 {
 	char	*str;
 
-	str = ft_strnew(len);
+	str = ft_strnew((size_t)len);
 	str = ft_strcpy(str, line);
-	free(line);
-	line = 0;
+	ft_strdel(&line);
 	return (str);
 }
 
@@ -110,6 +109,7 @@ int					get_next_line(const int fd, char **line)
 
 	if (fd < 0 || !line)
 		return (-1);
+	ft_strdel(line);
 	*line = ft_strnew(BUFF_SIZE);
 	if (write_rest(s_fdlist, line, fd))
 		return (1);

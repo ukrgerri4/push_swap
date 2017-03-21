@@ -23,9 +23,6 @@ t_flag	*make_flags(void)
 
 char	**check_flags(int *argc, char **argv, t_flag *flag)
 {
-	char	**tmp_argv;
-
-	tmp_argv = 0;
 	if (ft_strcmp(argv[1], "-v") == 0)
 	{
 		argv++;

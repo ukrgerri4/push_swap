@@ -14,7 +14,6 @@
 # define FT_PRINTF_H
 
 # include "../libft/libft.h"
-# include "../ft_printf/ft_printf.h"
 
 # include <stdarg.h>
 # include <string.h>
@@ -47,6 +46,7 @@ typedef	struct	s_plist
 }				t_plist;
 
 int				ft_printf(const char *format, ...);
+
 /*
 ** check all parameters
 */
@@ -57,6 +57,7 @@ void			ft_write_pad(t_plist *rules, const char *c, int *i);
 void			ft_write_flags(t_plist *rules, char c);
 void			ft_create_plist(t_plist **rules);
 void			ft_write_length(t_plist *rules, const char *c, int *i);
+
 /*
 ** use saved parameters and write specifier
 */
@@ -66,8 +67,9 @@ ssize_t			ft_sign_t(t_plist *rules, va_list ap);
 size_t			ft_unsign_t(t_plist *rules, va_list ap);
 void			ft_usernumb(t_plist *rules, char c, va_list ap);
 int				ft_fix_prec(int d, wchar_t *str);
+
 /*
-** write function
+** write nubers function
 */
 void			ft_putchar_count(int c);
 void			ft_putstr_count(char *s);
@@ -76,17 +78,20 @@ void			ft_putwstr_count(wchar_t *s);
 char			*ft_itoa_base_s(ssize_t value, int base);
 char			*ft_itoa_base_us(size_t value, int base);
 char			*ft_tolower_str(char *s);
+
 /*
 ** libft function
 */
-
 /*
-**int				ft_atoi(const char *str);
+**int			ft_atoi(const char *str);
 **void			ft_bzero(void *str, size_t n);
-**size_t			ft_strlen(const char *str);
+**size_t		ft_strlen(const char *str);
 **void			ft_strdel(char **as);
 */
 
+/*
+** write string function
+*/
 size_t			ft_wstrlen(wchar_t *str);
 void			ft_print_s(t_plist *rules, char *s);
 void			ft_print_c(t_plist *rules, char c);

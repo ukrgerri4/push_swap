@@ -12,29 +12,40 @@
 
 NAME =  libftprintf.a
 WWW = -Wall -Wextra -Werror -pipe
-LIB_PATH = ../libft/
-LIBFT = $(LIB_PATH)libft.a
+LIB_PATH = ../libft
+LIBFT = $(LIB_PATH)/libft.a
 
-OBJECTS = ft_checkparam.o ft_checkparam_fun.o ft_p_numb.o ft_p_string.o ft_printf.o ft_put_count.o ft_types.o ft_p_wstring.o ft_p_wput_count.o ft_p_wstring2.o
+OBJECTS = ft_checkparam.o \
+            ft_checkparam_fun.o \
+            ft_p_numb.o \
+            ft_p_string.o \
+            ft_printf.o \
+            ft_put_count.o \
+            ft_types.o \
+            ft_p_wstring.o \
+            ft_p_wput_count.o \
+            ft_p_wstring2.o
+
+LIB_OBJECTS = $(LIB_PATH)/ft_atoi.o \
+            $(LIB_PATH)/ft_bzero.o \
+            $(LIB_PATH)/ft_strlen.o \
+            $(LIB_PATH)/ft_strdel.o
 
 all: $(NAME)
 
-libmc:
-	make -C $(LIB_PATH)
+libmk: $(LIB_OBJECTS)
 
-$(NAME): libmc $(OBJECTS)
-	make -C $(LIB_PATH)
-	ar rc $(NAME) $(OBJECTS) $(LIBFT)
+$(NAME): libmk $(OBJECTS)
+	ar rc $(NAME) $(OBJECTS) $(LIB_OBJECTS)
 
 %.o: %.c
 	gcc  $(WWW) -o $@ -c $<
 
 clean:
-	make -C $(LIB_PATH) clean
+	rm -f $(LIB_OBJECTS)
 	rm -f $(OBJECTS)
 
 fclean: clean
-	make -C $(LIB_PATH) fclean
 	rm -f $(NAME)
 
 re: fclean all

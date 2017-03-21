@@ -97,10 +97,8 @@ int		checker(int argc, char **argv, t_flag *flag)
 int		main(int argc, char **argv)
 {
 	t_flag	*flag;
-	char	**tmp_argv;
 
 	flag = make_flags();
-	tmp_argv = 0;
 	if (argc > 1)
 	{
 		argv = check_flags(&argc, argv, flag);

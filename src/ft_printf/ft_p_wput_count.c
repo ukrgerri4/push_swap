@@ -68,7 +68,7 @@ void		ft_putwchar_count(wint_t c)
 	static unsigned char s[4];
 
 	g_wcount = 1;
-	if (c >= 0x0 && c <= 0x7F)
+	if (c <= 0x7F)
 	{
 		s[0] |= c;
 		write(1, s, 1);

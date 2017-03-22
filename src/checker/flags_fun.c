@@ -12,22 +12,13 @@
 
 #include "checker.h"
 
-t_flag	*make_flags(void)
-{
-	t_flag	*tmp;
-
-	tmp = (t_flag*)malloc(sizeof(t_flag));
-	tmp->v_flag = 0;
-	return (tmp);
-}
-
-char	**check_flags(int *argc, char **argv, t_flag *flag)
+char	**check_flags(int *argc, char **argv, int *flag)
 {
 	if (ft_strcmp(argv[1], "-v") == 0)
 	{
 		argv++;
 		(*argc)--;
-		flag->v_flag = 1;
+		*flag = 1;
 	}
 	return (argv);
 }

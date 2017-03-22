@@ -69,8 +69,6 @@ void	ft_write_flags(t_plist *rules, char c)
 
 void	ft_create_plist(t_plist **rules)
 {
-	if (!*rules)
-		*rules = (t_plist*)malloc(sizeof(t_plist));
 	(*rules)->flags = 0;
 	(*rules)->width = 0;
 	(*rules)->precision = -1;

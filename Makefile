@@ -12,8 +12,7 @@
 
 NAME_1 = bin/push_swap
 NAME_2 = bin/checker
-BIN = bin
-WWW = -Wall -Wextra -Werror
+WWW = -Wall -Wextra -Werror -pipe
 LIB_PATH = src/libft/
 LIBFT = $(LIB_PATH)libft.a
 FT_PRINTF_PATH = src/ft_printf/
@@ -38,31 +37,19 @@ OBJECTS_C_PS = src/push_swap/list_fun.o \
                 src/push_swap/validator.o \
                 src/push_swap/find_median.o
 
-all: $(NAME_1) $(NAME_2)
+all: $(NAME_1)
 
-bin_dirs:
-	mkdir -p $(BIN)
-
-libft_mc:
+libmk:
 	make -C $(LIB_PATH)
 
-ft_printf_mc:
+ft_printfmk:
 	make -C $(FT_PRINTF_PATH)
 
-push_swap_obj: $(OBJECTS_PS)
-
-checker_obj: $(OBJECTS_C) $(OBJECTS_C_PS)
-
-$(NAME_1):  bin_dirs libft_mc ft_printf_mc push_swap_obj
+$(NAME_1): libmk ft_printfmk $(OBJECTS_PS) $(OBJECTS_C)
 	gcc $(WWW) -o $(NAME_1) $(OBJECTS_PS) $(LIBFT) $(FT_PRINTF)
-
-$(NAME_2): bin_dirs checker_obj
 	gcc $(WWW) -o $(NAME_2) $(OBJECTS_C) $(OBJECTS_C_PS) $(LIBFT) $(FT_PRINTF)
 
-src/checker/%.o: src/checker/%.c
-	gcc  $(WWW) -o $@ -c $<
-
-src/push-swap/%.o: src/push-swap/%.c
+%.o: %.c
 	gcc  $(WWW) -o $@ -c $<
 
 clean:
@@ -74,6 +61,6 @@ clean:
 fclean: clean
 	rm -f $(LIBFT)
 	rm -f $(FT_PRINTF)
-	rm -Rf $(BIN)
+	rm -f $(NAME_1) $(NAME_2)
 
 re: fclean all

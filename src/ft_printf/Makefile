@@ -33,9 +33,7 @@ LIB_OBJECTS = $(LIB_PATH)/ft_atoi.o \
 
 all: $(NAME)
 
-libmk: $(LIB_OBJECTS)
-
-$(NAME): libmk $(OBJECTS)
+$(NAME): $(LIB_OBJECTS) $(OBJECTS)
 	ar rc $(NAME) $(OBJECTS) $(LIB_OBJECTS)
 
 %.o: %.c

@@ -15,11 +15,12 @@
 int		ft_printf(const char *format, ...)
 {
 	va_list			ap;
-	static t_plist	*rules;
+	t_plist			*rules;
 	int				i;
 
 	i = 0;
 	g_count = 0;
+	rules = (t_plist*)malloc(sizeof(t_plist));
 	va_start(ap, format);
 	while (format[i])
 	{
@@ -30,6 +31,7 @@ int		ft_printf(const char *format, ...)
 			ft_putchar_count(format[i++]);
 	}
 	va_end(ap);
-	ft_create_plist(&rules);
+	free(rules);
+	rules = NULL;
 	return (g_count);
 }

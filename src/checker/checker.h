@@ -15,13 +15,7 @@
 
 # include "../push_swap/push_swap.h"
 
-typedef struct	s_flags
-{
-	int	v_flag;
-}				t_flag;
-
-t_flag			*make_flags(void);
-char			**check_flags(int *argc, char **argv, t_flag *flag);
+char			**check_flags(int *argc, char **argv, int *flag);
 
 void			swap_checker(t_dlist *list);
 void			push_checker(t_dlist *list_src, t_dlist *list_dst);

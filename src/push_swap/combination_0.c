@@ -66,7 +66,6 @@ void	revrite_operation(char *str, t_info *info)
 void	combination(char *str, t_info *info)
 {
 	int	i;
-	int	n;
 
 	i = 0;
 	while (str[i])

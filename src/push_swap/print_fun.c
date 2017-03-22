@@ -42,7 +42,7 @@ void	put_list(t_dlist *list)
 	tmp = list->head;
 	while (tmp)
 	{
-		ft_putnbr(tmp->nb);
+		ft_printf("%d", tmp->nb);
 		tmp = tmp->next;
 		if (tmp)
 			ft_printf(" ");

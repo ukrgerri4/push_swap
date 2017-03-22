@@ -67,7 +67,7 @@ void	check_result(t_dlist *l_a)
 	ft_printf("\x1b[32mOK\x1b[0m\n");
 }
 
-int		checker(int argc, char **argv, t_flag *flag)
+int		checker(int argc, char **argv, int flag)
 {
 	t_dlist *l_a;
 	t_dlist *l_b;
@@ -84,7 +84,7 @@ int		checker(int argc, char **argv, t_flag *flag)
 	{
 		if (use_operation(l_a, l_b, line) == 1)
 			return (0);
-		if (flag->v_flag)
+		if (flag)
 			put_list(l_a);
 	}
 	check_result(l_a);
@@ -96,12 +96,12 @@ int		checker(int argc, char **argv, t_flag *flag)
 
 int		main(int argc, char **argv)
 {
-	t_flag	*flag;
+    int flag;
 
-	flag = make_flags();
+	flag = 0;
 	if (argc > 1)
 	{
-		argv = check_flags(&argc, argv, flag);
+		argv = check_flags(&argc, argv, &flag);
 		if (validation(argc, argv))
 		{
 			ft_printf("Error\n");
@@ -109,6 +109,5 @@ int		main(int argc, char **argv)
 		}
 		checker(argc, argv, flag);
 	}
-	free(flag);
 	return (0);
 }
